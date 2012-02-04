@@ -22,7 +22,7 @@ public class Squicss {
 		Optimizer logic = new Optimizer();
 
 		// cssfile accessed as a resource, so must be in the pkg (in src dir).
-		InputStream stream = Squicss.class.getResourceAsStream("loopia.css");
+		InputStream stream = Squicss.class.getResourceAsStream("readme.css");
 		InputSource source = new InputSource(new InputStreamReader(stream));
 		CSSOMParser parser = new CSSOMParser();
 		CSSStyleSheet stylesheet = parser.parseStyleSheet(source, null, null);

@@ -1,0 +1,15 @@
+	a {
+		width: 100px;
+	}
+	
+	b {
+		width: 100px;
+		color: red;
+	}
+	
+	c {
+		width: 100px;
+		color: red;
+		border: none;
+		padding: 10px;
+	}

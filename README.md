@@ -1,13 +1,43 @@
-Wraps the static code analyze tool [PMD](http://pmd.sourceforge.net/) into a simple JUnit test. 
+What is Squicss CSS Optimizer?
+========================================
 
-![alt text](https://github.com/corgrath/JUnit-PMD-Test-Wrapper/raw/master/doc/wiki/results.png "The JUnit results in Eclipse")
+Squicss CSS Optimizer is simply a clever CSS optimization tool that converts this:
+
+	a {
+		width: 100px;
+	}
+	
+	b {
+		width: 100px;
+		color: red;
+	}
+	
+	c {
+		width: 100px;
+		color: red;
+		border: none;
+		padding: 10px;
+	}
+	
+To:
+	
+	c {
+		border: none;
+		padding: 10px;
+	}
+	b, c, a {
+		width: 100px;
+	}
+	b, c {
+		color: red;
+	}
 
 
 Download
 ========================================
 Download the latest version here:
 
-https://github.com/corgrath/JUnit-PMD-Test-Wrapper/downloads/
+https://github.com/corgrath/squicss-css-optimizer/downloads/
 
 
 How to use it in an Eclipse project
