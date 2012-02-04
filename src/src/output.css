@@ -1,0 +1,1314 @@
+*.d-green {
+	background-image: url(steg2_typ-filer/diode-green.png);
+}
+a.campaign:hover {
+	border-bottom: 1px rgb(255, 226, 112) solid;
+	color: rgb(255, 226, 112);
+}
+*.toc_list {
+	height: 110px;
+}
+*.support-icon {
+	height: 132px;
+	width: 106px;
+	margin: 2px 15px;
+}
+ul.packages li {
+	background: url(https://static.loopia.se/inline/about-gif.gif) no-repeat;
+}
+*.domainlong3, *.sidebar-wrapper *.menu-middle-video, *.sidebar-wrapper, *.menu-middle-video {
+	width: 255px;
+}
+*.sidebar-wrapper *.menu-middle a, a.listPopupLink, strong, *.list-row a, *.list-norow a, ul#menulist li a, h4, a.pdf-link, *.wrapper-field-title, *.strong {
+	color: rgb(85, 85, 85);
+}
+*.support-icon a span, *.support-icon a, *.support-icon a:hover {
+	padding: 3px 0;
+}
+*.col1of4 {
+	width: 40%;
+}
+h4 {
+	font: 13px Arial, Helvetica, sans-serif;
+}
+h1 {
+	font: 26px Arial, Helvetica, sans-serif;
+}
+*.to_pay {
+	font-size: 1.6em;
+}
+h3 {
+	font: 16px Arial, Helvetica, sans-serif;
+}
+table.spec3 tr td.tinted {
+	background-color: rgb(251, 255, 236);
+}
+*.footer-wrapper *.footer *.footer-col {
+	padding: 48px 0px 0px 100px;
+}
+*.error-input, *.list-row *.support_info a:hover, *.list-norow *.support_info a:hover, a:hover, *.error-label-right, *.error-label-down, *.highlight, *.error-label, *.error-label-thin, *.video-view-content a:hover, *.c-wrapper a:hover {
+	color: rgb(221, 0, 0);
+}
+*.sidebar-wrapper *.menu-middle ul li {
+	background: url(https://static.loopia.se/inline/arrow4.gif) no-repeat;
+	padding: 2px 0px 2px 13px;
+}
+*.content-bottom *.info-bottom {
+	padding-left: 75px;
+}
+*.shead {
+	padding: 1px 0px 3px 0px;
+}
+input.userid {
+	border-left: 1px rgb(119, 119, 119) solid;
+	border-bottom: 1px rgb(255, 255, 255) solid;
+	border-right: 1px rgb(255, 255, 255) solid;
+	border-top: 1px rgb(119, 119, 119) solid;
+	background: rgb(240, 239, 239) url(https://static.loopia.se/inline/login-bg.png) repeat-x;
+}
+a.btnHref {
+	background: url(https://static.loopia.se/inline/table-top2.png) repeat-x scroll 0 0 rgb(215, 215, 215);
+	margin: 5px 0;
+}
+*#support-icon-cz {
+	background: url(https://static.loopia.se/loopiaweb/images/support_icons/support_cz.png) no-repeat 0 -15px;
+}
+ul#menulist li, table.tiny tr td.checkit input.active, ul#subtabslist li, *.dom-order-active {
+	display: inline;
+}
+*.sidebar_search_div *.textactive, *.sidebar-wrapper *.menu-top, *.sidebar_search_div *.text, *.logged-in-user, *.sidebar-wrapper *.menu-middle2, *.qoute {
+	font-size: 14px;
+}
+*.sidebar-wrapper *.menu-top, *.sidebar-wrapper *.menu-middle2 {
+	padding: 13px 0px 0px 12px;
+	width: 243px;
+	height: 32px;
+}
+*.dom-status-search {
+	background: url(https://static.loopia.se/inline/ajax-loader2.gif) no-repeat;
+}
+*#menu {
+	padding: 11px 0px 0px 12px;
+	width: 875px;
+}
+ul#subtabslist {
+	padding: 12px 2px 0px 0px;
+}
+dl dd {
+	padding: 0px 0px 8px 0px;
+	margin: 0px 0px 0px 12px;
+}
+input.submit2 {
+	background-color: rgb(170, 170, 170);
+}
+*.lists1 tr td.tint1 {
+	background-color: rgb(240, 239, 239);
+}
+*.lists1 tr td.tint2 {
+	background-color: rgb(255, 235, 181);
+}
+*.dom-fee-headline {
+	padding: 0px 20px 10px 0px;
+}
+*.lists1 tr td.tint3 {
+	background-color: rgb(232, 233, 255);
+}
+*.support-icon a span, *.support-icon a, *.support-icon a:hover, *.supexpand a, *.shead, *.app-link, *.follow, *.loginbox-btn {
+	display: block;
+}
+*.footer-wrapper *.footer *.footer-col ul {
+	margin: 5px 20px 0px 0px;
+}
+*.supexpand a, *.sidebar-wrapper *.menu-middle-video, *.menu-middle-video, *.searchdomain {
+	background-color: rgb(244, 244, 244);
+}
+table.spec2 tr td.tinted, table.spec2 tr td, *.list-row {
+	border-top: 1px rgb(221, 221, 221) solid;
+}
+*.sidebar-wrapper *.menu-middle3 *.dnssec_working_but_not_verified {
+	background: url(https://static.loopia.se/inline/dnssec_working_but_not_verified.png) no-repeat;
+}
+table.tiny tr td.fee-serb {
+	width: 115px;
+}
+*.underline {
+	padding-bottom: 3px;
+	margin-bottom: 8px;
+}
+table.tiny tr td.domain-serb, table.tiny tr td.domain {
+	padding-right: 0px;
+}
+*.lists1 tr td {
+	height: 23px;
+}
+table.spec tr td.tinted {
+	background: rgb(244, 244, 244) url(https://static.loopia.se/inline/table-right2.png) repeat-y;
+}
+*.sidebar-wrapper *.menu-middle3 h3 {
+	font-size: 12px;
+}
+table.tiny tr td.status *.search {
+	background: url(https://static.loopia.se/inline/ajax-loader3.gif) no-repeat;
+}
+ul#subtabslist li {
+	padding: 0px 8px 0px 8px;
+	border-left: 1px rgb(187, 187, 187) solid;
+}
+table.tiny tr td.status *.active, *.dom-status-active {
+	background: url(https://static.loopia.se/inline/tick-gif.gif) no-repeat;
+}
+*.your_account, *.sidebar-wrapper *.menu-middle, *#sidebar *.s_content, *.searchdomain {
+	padding: 10px;
+}
+*.input-wrapper *.error h2, *.tab-info, *.input-wrapper *.info h2, *.input-wrapper *.success h2, *.package-start-moreinfo {
+	padding-top: 15px;
+}
+*.p-wrapper2, *.p-wrapper3 {
+	width: 83px;
+}
+ul#menulist, ul#subtabslist, *.input-wrapper *.error ul li, *.c-wrapper *.contents ul li.subli, *.c-wrapper *.contents ul li, *.footer-wrapper *.footer *.footer-col ul {
+	list-style: none;
+}
+*.support-icon a span {
+	border-radius: 6px;
+	margin-top: 93px;
+	background: rgb(188, 188, 186);
+	-moz-border-radius: 6px;
+}
+*.content-bottom a:hover {
+	color: rgb(187, 0, 0);
+}
+*.dom-separator, *.sidebar-wrapper {
+	margin-top: 8px;
+}
+*.package-start-box {
+	padding: 1.9%;
+	margin: 13px 1% 1% 1%;
+	border: 1px solid rgb(218, 215, 148);
+	width: 27%;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	background: rgb(255, 253, 230);
+}
+*.sub-wrapper {
+	background: rgb(255, 255, 255) url(https://static.loopia.se/inline/sublist-top2.png) no-repeat;
+}
+ul#menulist {
+	margin: 0px 8px 0px 0px;
+}
+input.submit {
+	background-color: rgb(102, 0, 0);
+	border: 1px rgb(255, 255, 255) solid;
+}
+*.footer-wrapper {
+	padding-left: 53px;
+}
+table.tiny tr td.status *.inactive, *.dom-status-search, *.sidebar-wrapper *.menu-middle3 *.dnssec_working_and_verified, table.tiny tr td.status *.active, table.tiny tr td.status *.search, *.dom-status-active, ul.packages li, *.sidebar-wrapper *.menu-middle3 *.dnssec_working_but_not_verified, *.dom-status-inactive, table.tiny tr td.status *.ferror, *.sidebar-wrapper *.menu-middle3 *.browser-new, *.input-wrapper *.error ul li, *.sidebar-wrapper *.menu-middle3 *.dnssec_not_working, *.sidebar-wrapper *.menu-middle3 *.ipv6, *.sidebar-wrapper *.menu-middle3 *.ipv4, *.sidebar-wrapper *.menu-middle3 *.init, *.sidebar-wrapper *.menu-middle3 *.browser-old {
+	background-position: center left;
+}
+*#packages-start, *#facebook-like-box {
+	margin-left: 10px;
+}
+*.front-small-wrapper *.front-info, *.front-info, h2 {
+	font: 20px Arial, Helvetica, sans-serif;
+}
+*.c-wrapper *.contents ul li.subli {
+	margin-left: 15px;
+}
+*.banner-wrapper {
+	background: rgb(253, 253, 238) url(https://static.loopia.se/inline/bg-campaign.png) repeat-x;
+}
+html, body, input.submit, input.submit2, input.userid, a.btnHref, input, textarea, input.domain {
+	font: 12px Arial, Helvetica, sans-serif;
+}
+html, body, *#header-wrapper {
+	background: rgb(239, 239, 239) url(https://static.loopia.se/inline/header.png) repeat-x;
+}
+*.sidebar-wrapper *.menu-middle3 a:hover, *.c-wrapper a:hover {
+	border-bottom: 1px rgb(221, 0, 0) solid;
+}
+*#menu img {
+	margin: 0px 3px 0px 3px;
+}
+h3, *.banner-wrapper *.campaign {
+	padding: 5px 0px 0px 0px;
+}
+label, *.orderform-box-image {
+	width: 150px;
+}
+table.spec3 tr td.top, pre {
+	background: rgb(238, 248, 199) url(https://static.loopia.se/inline/login-bg6.png) repeat-x;
+}
+*.c-wrapper *.contents *.col-wrapper, *.input-wrapper {
+	margin-bottom: 15px;
+}
+*.diode {
+	padding-left: 40px;
+	background-repeat: no-repeat;
+	background-position: 21px 3px;
+}
+*.p-grey, *.p-big-notint, *.p-big-tint, *.p-small-notint, *.p-grey-notint, *.p-grey-tint, *.p-small-tint, *.p-pp-big {
+	margin-right: 4px;
+}
+*.c-wrapper a, *.list-row *.support_info a, *.list-norow *.support_info a, *.video-view-content a {
+	color: rgb(191, 141, 7);
+}
+*.skicka-no {
+	background: rgb(215, 215, 215) url(https://static.loopia.se/inline/table-top4.png) repeat-x;
+}
+*.c-wrapper *.contents *.col-wrapper *.col2, *.c-wrapper *.contents *.col-wrapper *.col1 {
+	width: 267px;
+}
+table.spec2 {
+	border: 1px rgb(221, 221, 221) solid;
+}
+*#sidebar *.s_content ul.domain li, *.input-wrapper *.info, *.footer-wrapper *.footer *.footer-col ul li, *.input-wrapper *.success, *.input-wrapper *.error, *#sidebar *.s_content ul li, *#content ul li {
+	background-position: left center;
+}
+*.c-wrapper *.contents *.col-wrapper *.col1 *.caption, *.c-wrapper *.contents *.col-wrapper *.col2 *.caption {
+	background-color: rgb(219, 167, 26);
+	width: 257px;
+}
+*.sub-wrapper, ul#menulist, *.nav *.navigate, *.transfer-domain-info, *.dom-separator, *#footer-wrapper, *.orderform-service-header, *.p-fp-big, *.p-fp-big-tintr, *.support-icon, *.dom-wrapper, *.footer-wrapper *.footer, *.dom-status-inactive, *.list-norow, *.all, *.select-transfer, *.loginbox-btn-home div, *.c-wrapper *.contents *.col-wrapper, *.share-box-icons, *.dom-domain-headline, *.p-grey-tint, *#subtabs, *.p-small-tint, *.footer-wrapper *.footer *.footer-col, *.p-small-tintr, *.p-wrapper, *.domainlong3, *.supexpand a, *.p-grey, *#logged-in, *.diode, *.start-col3, *#content-wrapper2, *.start-col1, label, *.start-col2, *.dom-domain-active, *.dom-domain-inactive, *.p-small-notint, *.p-grey-notint, *.list-row *.support-subj, *.list-norow *.support-subj, *.content-bottom, *#middle-wrapper, *.content-bottom *.info-bottom, *.app-link, *.dom-fee-active, *.dom-fee-inactive, *.dom-status-headline, *.p-wrapper2, *.p-wrapper3, *.transfer-list-domain, *.p-big-tint, *.front-small-wrapper, *.dlist-right, *.p-fp-big-notintr, *.p-fp-small-tintr, *.list-row *.support_info, *.list-norow *.support_info, *.dom-domain-search, *.c-wrapper *.contents, *.transf-domain-status, *.dom-status-search, *#menu, *.list-row *.count, *.list-norow *.count, *.dlist-left, *.dom-status-active, *.wrapper-field-title, *.dom-fee-headline, *#sidebar, *.p-pp-big, *.c-wrapper *.contents *.col-wrapper *.col2, *.c-wrapper *.contents *.col-wrapper *.col1, *#content-nopadding, *.dom-fee-search, *.wrapper-status-content, *.loginbox-btn, *.p-wrapper1, *.content, *.supexpand, *.float-left, *.sub-wrapper-bottom, *.dom-order, *.credit-card-logos, *#content-wrapper *#campaign, *.credit-card-logos-rs, *.start-col2-long, *#footer, *.sidebar-wrapper, *.dom-order-headline, *.p-big-notint, *.follow, *.orderform-service-list, *.p-small-notintr, *.package-start-box, *.c-wrapper, *.orderform-box-image, *#content-wrapper, *.list-row {
+	float: left;
+}
+*.searchdomain {
+	width: 258px;
+}
+table.tiny tr td.fee *.active, table.tiny tr td.domain *.active, table.tiny tr td.domain *.inactive {
+	color: rgb(34, 34, 34);
+}
+*#sidebar *.s_content ul.domain, *#sidebar *.s_content ul, *.p-big-notint, *.sidebar-wrapper *.menu-middle ul, *.p-small-notintr, *.p-small-notint, *.p-grey-notint, *.p-fp-big-notintr {
+	padding: 0px 5px 0px 5px;
+}
+*.follow-p, *.sidebar-wrapper *.menu-middle-video, *.menu-middle-video {
+	padding: 0;
+}
+*.sidebar-wrapper *.menu-middle3 p {
+	padding: 2px 0px 10px 0px;
+	margin: 0px 10px 0px 0px;
+}
+*.small-cap {
+	height: 60px;
+	width: 261px;
+}
+*.code, input.domain {
+	background-color: rgb(250, 250, 250);
+}
+*.d-red {
+	background-image: url(steg2_typ-filer/diode-red.png);
+}
+*.skicka-yes {
+	background: rgb(215, 215, 215) url(https://static.loopia.se/inline/table-top5.png) repeat-x;
+}
+*.border-bottom {
+	border-bottom: 3px solid rgb(219, 167, 26);
+}
+table.spec3 tr td, *.sidebar_search_div *.textactive, *.sidebar_search_div *.text, *.skicka, a.btnHref, *.lists tr td.top {
+	padding: 5px;
+}
+*.video-view-content {
+	width: 90%;
+}
+table.spec3 tr td.top {
+	background-color: rgb(238, 248, 199);
+	color: rgb(86, 101, 66);
+}
+table.tiny tr td.fee, *.dom-fee-active, *.dom-fee-inactive, *.dom-fee-search, *.dom-fee-headline {
+	width: 60px;
+}
+*#footer {
+	height: 250px;
+	background: url(https://static.loopia.se/inline/footer.png) no-repeat;
+}
+*.c-wrapper {
+	width: 583px;
+	padding: 8px 8px 0px 3px;
+}
+*.sidebar_search_div *.textactive, *.sidebar_search_div *.text, *.skicka, *.text, *.supexpand a, *.supexpand a:hover, table.spec tr td, input.submit2, input.domain, table.spec tr td.top, *.skicka-no, *.skicka-yes, *.input-wrapper *.input, *.img, *.searchdomain, *.input-wrapper *.invoice {
+	border: 1px rgb(136, 136, 136) solid;
+}
+*.package-start-box ul {
+	margin-top: 0px;
+}
+*.transfer-domain-info {
+	width: 155px;
+}
+table.spec3 tr td.tinted, table.spec3 tr td.top, table.spec3 tr td.notint {
+	border-top: 1px rgb(170, 182, 119) solid;
+	border-bottom: 1px rgb(170, 182, 119) solid;
+}
+*#sidebar *.s_content ul, *#footer, *.sidebar-wrapper *.menu-middle ul {
+	margin: 0px 0px 10px 0px;
+}
+*#login {
+	width: 260px;
+	padding: 13px 20px 0px 0px;
+	height: 73px;
+}
+*.loginbox-btn span {
+	background: url(https://static.loopia.se/inline/btn-logout_bg.png) right 2px no-repeat;
+}
+*.p-grey-notint, *.p-grey-tint {
+	width: 196px;
+}
+*#sidebar *.s_content ul.domain li, *.dom-separator, *.sidebar-wrapper *.menu-middle3 a, h1 a, *.underline, *.input-wrapper *.input *.separator, *.input-wrapper *.invoice *.separator {
+	border-bottom: 1px rgb(204, 204, 204) solid;
+}
+*#header-swe {
+	background: url(https://static.loopia.se/inline/se/header-big.png) no-repeat;
+}
+*.nav, h1 {
+	padding: 15px 0px 0px 0px;
+}
+*.expand, *.collapse, *.transfer-list-domain, *.no-exp {
+	padding-left: 19px;
+}
+*.content-top, *.content-middle {
+	width: 950px;
+}
+*.start-col1 {
+	width: 121px;
+}
+*.orderform-service-label, label.no {
+	float: none;
+}
+*.sidebar-wrapper *.menu-middle p, *.sidebar-wrapper *.menu-middle3 p, *.sidebar-date, *#sidebar *.s_content p {
+	line-height: 15px;
+}
+*.content-top {
+	min-height: 288px;
+	background: url(https://static.loopia.se/inline/content-topsmall7.png) no-repeat;
+}
+*#support-icon-ftp {
+	background: url(https://static.loopia.se/loopiaweb/images/support_icons/support_ftp.png) no-repeat 0 -15px;
+}
+*.app-link {
+	width: 100px;
+}
+*.input-wrapper *.error ul li {
+	background: url(https://static.loopia.se/inline/white-arrow.gif) no-repeat;
+}
+*.c-wrapper *.contents *.col-wrapper *.col1 *.caption, *.c-wrapper *.contents *.col-wrapper *.col2 *.caption, *.video-view-closeBtn {
+	height: 30px;
+}
+*.input-wrapper *.success {
+	background: rgb(38, 152, 32) url(https://static.loopia.se/inline/success.png) no-repeat;
+	border: 1px rgb(4, 83, 0) solid;
+}
+*.c-wrapper *.contents {
+	width: 554px;
+	padding-left: 17px;
+}
+*.p-small-tintr, *.p-fp-big-tintr, *.lists tr td, *.lists tr td.tinted2, *.p-big-tint, *.lists tr td.tinted, *.p-grey-tint, *.p-fp-small-tintr, *.p-small-tint {
+	padding: 2px 5px 2px 5px;
+}
+*.img-right {
+	margin: 0 0 10px 10px;
+}
+*.input-wrapper *.info {
+	background: rgb(255, 220, 80) url(https://static.loopia.se/inline/info-big.png) no-repeat;
+}
+*.package-start-order {
+	padding-top: 8px;
+	height: 36px;
+}
+*#content ul.regular {
+	margin: 10px 0px 10px 0px;
+}
+*.content-middle {
+	background: rgb(255, 255, 255) url(https://static.loopia.se/inline/content-middle2.png) repeat-y;
+}
+h1 a, *.c-wrapper *.contents h1 a {
+	color: rgb(219, 167, 26);
+}
+table.spec2 tr td.tinted, table.spec2 tr td {
+	padding: 3px 4px 3px 4px;
+}
+table.spec3 tr td, *.c-wrapper *.contents ul li p, html, body, *.sidebar_search_div *.textactive, *.lists1 tr td a, *#sidebar *.s_content ul.domain li, table.tiny, table.sub, ul#subtabslist, table.spec, img, *.lists1, *.sidebar-wrapper *.menu-middle ul li.olist, *.footer-wrapper *.footer *.footer-col ul li, *.lists1 tr, *.lists tr, *#sidebar *.s_content ul.domain, ul.packages li, table.tiny tr, table.sub tr, *#login table tr td, *.small-cap h3, *.list-row p, *.list-norow p, h4, h1, *.lists tr td.tinted, *.lists tr td.top, h3, h2, *.lists tr td.img2, *.lists1 tr td, *.content, *.sidebar_search_div *.text, table.sub tr td, *.lists tr td, *#content ul, form, table.account, *.lists tr td.tinted2, a, *.searchdomain form, *#sidebar *.s_content ul li, table.account tr, table.account tr td, table.spec2, table.tiny tr td, form.login, *.sidebar-wrapper *.menu-middle ul li, *.sidebar-wrapper *.menu-middle ul li.selected ul.subcat li.subcat, dl dt {
+	margin: 0px;
+}
+*#sidebar *.s_content {
+	width: 242px;
+	background: rgb(244, 244, 244) url(https://static.loopia.se/inline/sb-content-bg.png) repeat-y;
+}
+*.tab-mysql {
+	min-height: 150px;
+	padding: 18px 0px 0px 70px;
+	background: url(https://static.loopia.se/inline/tab-mysql.png) no-repeat;
+}
+*#sidebar *.s_content ul.domain li, *.footer-wrapper *.footer *.footer-col ul li, *#sidebar *.s_content ul li {
+	padding: 2px 0px 2px 10px;
+}
+*#support-icon-dns {
+	background: url(https://static.loopia.se/loopiaweb/images/support_icons/support_dns.png) no-repeat 0 -15px;
+}
+*#popout-from-right-col {
+	margin-left: 907px;
+	z-index: 0;
+	width: 105px;
+}
+*.input-wrapper *.error ul li, *.c-wrapper *.contents ul li.subli, *.c-wrapper *.contents ul li, dl dt {
+	padding: 2px 0px 2px 12px;
+}
+*#content-wrapper *#campaign {
+	min-height: 20px;
+}
+*.credit-card-logos-rs, *.credit-card-logos {
+	margin: -3px 0 0 10px;
+	height: 27px;
+}
+*.login-sub-div {
+	width: 275px;
+}
+*.input-wrapper *.info p a {
+	border-bottom: 1px rgb(219, 167, 26) solid;
+}
+*.p-grey, *.p-wrapper1 {
+	width: 206px;
+}
+*.sidebar-wrapper *.menu-middle p, *#sidebar *.s_content p {
+	font: 11px Arial, Helvetica, sans-serif;
+}
+table.tiny tr td.status *.ferror {
+	background: url(https://static.loopia.se/inline/ferror-gif.gif) no-repeat;
+}
+*.sidebar-wrapper *.menu-middle3 *.dnssec_not_working {
+	background: url(https://static.loopia.se/inline/dnssec_not_working.png) no-repeat;
+}
+*.wrapper, *.content-middle, *.banner-wrapper *.campaign {
+	margin-left: auto;
+	margin-right: auto;
+}
+ol.sup {
+	margin: 5px 0px 15px 40px;
+}
+*.c-wrapper *.contents ul li p {
+	padding: 2px 0px 3px 0px;
+}
+*.lists tr td, *.lists tr td.tinted2, *.lists tr td.tinted, *.pic-right, *.lists tr td.top {
+	border: 1px rgb(187, 187, 187) solid;
+}
+*#sidebar *.hl-middle {
+	height: 34px;
+	background: url(https://static.loopia.se/inline/sb-headline.png) no-repeat;
+}
+*.content-superwrapper, *.all {
+	height: 300px;
+}
+*.texterror {
+	background: rgb(255, 236, 236) url(https://static.loopia.se/inline/login-bg7.png) repeat-x;
+	border: 1px rgb(221, 0, 0) solid;
+}
+*.spec3-wrapper, *.supexpand {
+	padding: 10px 0px 15px 0px;
+}
+*.text {
+	background: rgb(255, 255, 255) url(https://static.loopia.se/inline/login-bg4.png) repeat-x;
+}
+*.c-wrapper *.contents *.col-wrapper *.col1 *.caption, *.c-wrapper *.contents *.col-wrapper *.col2 *.caption, *.error-input, *.error-label-right, *.loginbox-btn {
+	padding-left: 10px;
+}
+ul#menulist li a:hover, *.sidebar-wrapper *.menu-middle a:hover, a:hover {
+	color: rgb(153, 0, 0);
+}
+*.transf-domain-status, *.diode, *.list-row *.count, *.list-norow *.count, *.nav *.order {
+	padding-right: 10px;
+}
+*.hl, *#content-nopadding {
+	width: 600px;
+}
+*.sub-wrapper, *.input-wrapper *.input *.separator, *.input-wrapper *.invoice *.separator {
+	margin-bottom: 5px;
+}
+ul#menulist li {
+	padding: 0px 6px 0px 5px;
+	border-right: 1px rgb(187, 187, 187) solid;
+}
+*#footer, *#content-wrapper *#campaign, *.banner-wrapper *.campaign {
+	width: 862px;
+}
+*.dom-wrapper {
+	padding-bottom: 2px;
+}
+*.content, *#package-start-images {
+	width: 580px;
+}
+*.footer-wrapper *.footer {
+	background: url(https://static.loopia.se/inline/footer-10.png) no-repeat;
+	width: 846px;
+	height: 163px;
+}
+*.list-row p, *.list-norow p {
+	padding: 2px 0px;
+}
+*.small, *.share-box {
+	padding-top: 10px;
+}
+*.d-yellow {
+	background-image: url(steg2_typ-filer/diode-yellow.png);
+}
+*#support-icon-misc {
+	background: url(https://static.loopia.se/loopiaweb/images/support_icons/support_misc.png) no-repeat 0 -15px;
+}
+*.video-view-closeBtn {
+	width: 30px;
+}
+*.front-small-wrapper *.front-info, *.front-info {
+	padding: 30px 0px 7px 0px;
+}
+*.content-bottom {
+	padding-bottom: 5px;
+	background: rgb(239, 239, 239) url(https://static.loopia.se/inline/content-bottom2.png) no-repeat;
+}
+*.app-link-div, *.follow-p, a.link-btn, a.link-btn:hover, *.inline-block, a.btnHref {
+	display: inline-block;
+}
+*.package-start-box ul li {
+	padding-left: 13px;
+}
+*.front-info-nopic, *#sidebar *.hl-middle, *#sidebar *.hl-top {
+	font: 14px Arial, Helvetica, sans-serif;
+}
+*.tab-info, *.small {
+	border-top: 1px rgb(136, 136, 136) solid;
+}
+*#support-icon-email {
+	background: url(https://static.loopia.se/loopiaweb/images/support_icons/support_email.png) no-repeat 0 -15px;
+}
+*.skicka, table.spec tr td.top {
+	background: rgb(215, 215, 215) url(https://static.loopia.se/inline/table-top2.png) repeat-x;
+}
+ul#menulist li a:hover, a img, ul#subtabslist li a, a, ul#menulist li a, ul#subtabslist li a:hover {
+	text-decoration: none;
+}
+*.sidebar-wrapper *.menu-middle3 h3, h2 {
+	padding: 10px 0px 0px 0px;
+}
+*.dlist-left {
+	padding-right: 15px;
+}
+*.c-wrapper a {
+	border-bottom: 1px rgb(239, 225, 186) solid;
+}
+*#footer3, *#footer2 {
+	width: 881px;
+}
+a.link-btn, a.link-btn:hover, a.btnHref {
+	border: 1px solid rgb(136, 136, 136);
+}
+*.app-link-div {
+	width: 230px;
+}
+*.list-row *.support_info a, *.list-norow *.support_info a, *.video-view-content a {
+	border-bottom: 1px solid rgb(239, 225, 186);
+}
+*.ctop {
+	height: 100px;
+}
+*.clear {
+	clear: both;
+}
+*.sidebar-wrapper *.menu-middle ul li.olist, *#sidebar *.s_content ul.domaintasks li, *#content ul.regular li {
+	background: none;
+}
+*#sidebar *.s_content ul li {
+	background: url(https://static.loopia.se/inline/arrow2.png) no-repeat;
+}
+*#header-swe, *#header-serb {
+	height: 121px;
+}
+*.credit-card-logos-rs {
+	background: url(https://static.loopia.se/loopiaweb/images/order/credit_cards_rs.png) no-repeat;
+}
+*#sidebar *.hl-middle, *#sidebar *.hl-top {
+	padding: 13px 0px 0px 10px;
+	width: 252px;
+}
+*.credit-card-logos-rs, *.orderform-service-list, *.p-fp-big, *.credit-card-logos, *.p-pp-big {
+	width: 170px;
+}
+*.pic-right {
+	padding: 2px;
+	margin: 0px 0px 0px 10px;
+}
+table.tiny tr td.fee-serb, table.tiny tr td.fee, *.dom-fee-active, *.dom-fee-inactive, *.dom-fee-search {
+	padding-right: 20px;
+}
+*.orderform-service-header {
+	margin-bottom: 6px;
+	width: 350px;
+}
+ol.sup li, *#login table tr td, *.sidebar-wrapper *.menu-middle ul li.olist, *#sidebar *.s_content ul.domaintasks {
+	padding: 2px 0px 2px 0px;
+}
+*.lists1 tr td, *.lists1 tr td.tint1, *.lists1 tr td.tint2, *.lists1 tr td.tint3 {
+	padding: 2px 5px 0px 5px;
+}
+html, body, a.black-link, *.texterror, *.supexpand a, *.skicka-yes, input.userid, *.textactive, *.skicka-no {
+	color: rgb(0, 0, 0);
+}
+*.followDrift {
+	background-image: url(/loopiaweb/images/follow/driftbloggen.png);
+}
+input.userid, input.domain {
+	padding-left: 3px;
+}
+*.all {
+	background: rgb(255, 255, 255) url(https://static.loopia.se/inline/packages.png) no-repeat;
+}
+*.collapse {
+	background: transparent url(https://static.loopia.se/inline/collapse.gif) no-repeat;
+}
+*.dom-status-inactive, *.dom-status-search, table.tiny tr td.status, *.dom-status-headline, *.dom-status-active {
+	width: 50px;
+}
+*.small, *.tab-info2 {
+	margin-top: 10px;
+}
+*.supexpand a {
+	padding: 2px 5px;
+	background-position: 240px center;
+	width: 249px;
+	background: rgb(244, 244, 244) url(https://static.loopia.se/inline/support-expand.png) no-repeat;
+}
+*#middle-wrapper, *.your_account, *#facebook-like-box {
+	background-color: rgb(255, 255, 255);
+}
+*.error-input, *.front-info, *.front-small-wrapper *.front-info, a.listPopupLink, *.supexpand a, a:hover, *#content-wrapper *#campaign h1, *.input-wrapper *.info, *.list-row a, *.list-norow a, a.pdf-link, *.input-wrapper *.error, a.link-btn, a.link-btn:hover, h1, *.error-label-thin, *.input-wrapper *.success, h3, h2 {
+	font-weight: normal;
+}
+*.follow-p {
+	border-bottom: 0 none;
+}
+*.green, dl dt {
+	color: rgb(118, 154, 76);
+}
+*.footer-wrapper *.footer *.footer-col, *.diode, *.transfer-list-domain {
+	width: 200px;
+}
+*.p-wrapper3 {
+	margin: 0px 0px 15px 0px;
+}
+*.input-wrapper *.input {
+	background: rgb(244, 244, 244) url(https://static.loopia.se/inline/login-bg3.png) repeat-x;
+}
+*.tab-info {
+	margin-top: 20px;
+}
+*.d-grey {
+	background-image: url(steg2_typ-filer/diode-grey.png);
+}
+*.front-info-nopic, *.hl, *.domainsearch, *#content-wrapper *#campaign {
+	border-bottom: 1px rgb(136, 136, 136) solid;
+}
+*.front-info-nopic, *#sidebar *.hl-middle, *.front-small-wrapper *.front-info, *.front-info, *.shead, *.asterix, *#sidebar *.hl-top, *.small, *.sidebar-date, *.gray {
+	color: rgb(136, 136, 136);
+}
+*#hideBackground {
+	background: rgb(0, 0, 0);
+	left: 0;
+	top: 0;
+	height: 1200px;
+}
+*.wrapper-field-title {
+	width: 120px;
+}
+*.input-wrapper *.info, *.input-wrapper *.error {
+	border: 1px rgb(104, 0, 0) solid;
+}
+*.input-wrapper *.error {
+	background: rgb(183, 0, 0) url(https://static.loopia.se/inline/error.png) no-repeat;
+}
+*.input-wrapper {
+	border-bottom: 3px rgb(219, 167, 26) solid;
+	padding: 5px 0px 3px 0px;
+}
+*.your_account {
+	margin: 2px 5px 4px 5px;
+	border: 3px rgb(170, 170, 170) solid;
+}
+*.lists tr td.tinted2, *.lists tr td.top {
+	background-color: rgb(248, 248, 248);
+}
+*.c-wrapper *.contents *.col-wrapper *.col1 {
+	margin-right: 15px;
+}
+*.content {
+	padding: 10px 20px 0px 0px;
+}
+*.sidebar-wrapper *.menu-middle ul li.selected ul.subcat {
+	margin-bottom: 2px;
+	padding: 1px 0px 0px 0px;
+}
+*#header-serb {
+	background: url(https://static.loopia.se/inline/rs/header-big.png) no-repeat;
+}
+*.sidebar-date {
+	margin: 0px 4px 1px 0;
+}
+*#sidebar *#domain-wrapper, *#footer3, *.directly-above-wrapper, *#footer2, *.red-wrapper, *#content-wrapper *#campaign img {
+	margin-bottom: 10px;
+}
+*.front-info-nopic {
+	margin-bottom: 22px;
+	padding-top: 30px;
+}
+input.submit, *.support-icon a, *.support-icon a:hover, *.supexpand a:hover, *#logged-in, *.input-wrapper *.success h2, input.submit2, *#login, *#sidebar *.s_content ul.domaintasks, input.domain, *.input-wrapper *.error, *.c-wrapper *.contents *.col-wrapper *.col1 *.caption, *.c-wrapper *.contents *.col-wrapper *.col2 *.caption, *.input-wrapper *.error h2, a.campaign, *#footer, *.input-wrapper *.success {
+	color: rgb(255, 255, 255);
+}
+dl, *.c-wrapper *.contents ul {
+	margin: 3px 0px 13px 10px;
+}
+*.follow {
+	border-bottom: 0;
+	text-decoration: 0;
+	width: 47px;
+	padding: 43px 5px 0 5px;
+	background: no-repeat 7px 0;
+	font-size: 10px;
+}
+*.skicka-yes, *.skicka-no {
+	padding: 7px 10px;
+}
+*#sidebar *.s_content ul.domaintasks li {
+	margin: 0px 0px 0px 15px;
+}
+*.text, *.input-wrapper *.info {
+	color: rgb(51, 51, 51);
+}
+*.followTwitter {
+	background-image: url(/loopiaweb/images/follow/twitter.png);
+}
+*.sidebar_search_div *.textactive {
+	background: rgb(255, 255, 255);
+}
+table.spec2 tr td.tinted {
+	background-color: rgb(249, 249, 249);
+}
+*.sidebar-wrapper *.menu-middle {
+	width: 235px;
+}
+*.sub-wrapper, *.supexpand, *.list-norow, *.all, *.sidebar-wrapper, *.content-top, *.sub-wrapper-bottom, *.input-wrapper *.input, *.c-wrapper *.contents *.col-wrapper, *.input-wrapper *.input *.separator, *.input-wrapper *.invoice *.separator, *.c-wrapper, *.list-row {
+	overflow: hidden;
+}
+*.lists tr td.img2, a img, table.account, *.ctop, *.lists tr td.img {
+	border: none;
+}
+*.sidebar-wrapper *.menu-bottom, *#sidebar *.s_bottom {
+	height: 55px;
+	background: url(https://static.loopia.se/inline/sb-bottom3.png) no-repeat;
+}
+input.domain {
+	width: 145px;
+}
+*.orderform-service-label, *.package-start-box h2 {
+	font-size: 18px;
+}
+*.loginbox-btn-home div, *.loginbox-btn {
+	margin-right: 5px;
+}
+*.error-label-down {
+	padding: 5px 0px 0px 10px;
+}
+*.start-col3, *.list-row *.count, *.list-norow *.count, *.dlist-left, *.dom-fee-headline, *.start-col2, *.nav *.order, *.content-bottom, *.start-col2-long, table.tiny tr td.fee-serb, table.tiny tr td.fee, *.dom-fee-active, *.dom-fee-inactive, *.select-transfer, *.dom-fee-search {
+	text-align: right;
+}
+*.textactive {
+	border: 1px rgb(93, 97, 78) solid;
+	background: rgb(247, 255, 216) url(https://static.loopia.se/inline/login-bg5.png) repeat-x;
+}
+*.lists tr td.img {
+	margin: 0px 3px 0px 0px;
+}
+*.img {
+	padding: 4px;
+}
+*.share-box-icons {
+	padding: 7px 7px 7px 0;
+}
+*.col2-4of4 {
+	width: 20%;
+}
+table.spec3 tr td.notint a, table.spec3 tr td.notint a:hover, table.spec3 tr td.tinted a, table.spec3 tr td.tinted a:hover, a:hover, *.list-row a, *.list-norow a, *.sidebar-wrapper *.menu-middle ul li.selected ul.subcat li.subcat, a.pdf-link, *.list-row a:hover, *.list-norow a:hover {
+	border-bottom: none;
+}
+*.domainlong3 {
+	margin-right: 10px;
+}
+*.logged-in-user {
+	margin: 0px 0 4px 0;
+	color: rgb(255, 204, 0);
+}
+*#logged-in {
+	margin: 0px 0 0 3px;
+	width: 218px;
+	padding: 18px 20px 4px 25px;
+	height: 64px;
+}
+table.spec3, table.tiny, table.sub, table.account, *.lists1, table, *.lists {
+	border-collapse: collapse;
+}
+table tr td, *.content-bottom {
+	padding-top: 20px;
+}
+*.orderform-service-list-item {
+	background: url(https://static.loopia.se/inline/about-gif.gif) no-repeat 7px 4px;
+}
+*.package-start-info {
+	font-style: oblique;
+	font: 11px/ 15px Arial, Helvetica, sans-serif;
+	padding: 7px 0 9px 0;
+}
+*.sidebar-wrapper *.menu-middle3 *.ipv6 {
+	background: url(https://static.loopia.se/inline/ipv6.png) no-repeat;
+}
+*.sidebar-wrapper *.menu-middle3 *.ipv4 {
+	background: url(https://static.loopia.se/inline/ipv4.png) no-repeat;
+}
+table.tiny tr td.status *.inactive, *.dom-status-inactive {
+	background: url(https://static.loopia.se/inline/cross-gif.gif) no-repeat;
+}
+*.sidebar-wrapper *.menu-middle3 *.browser-old {
+	background: url(https://static.loopia.se/inline/browser-old.png) no-repeat;
+}
+*#content ul li {
+	margin: 0px 0px 0px 20px;
+	background: url(https://static.loopia.se/inline/red-check.png) no-repeat;
+}
+*.share-box-text, *.asterix, *.sidebar-date, *.qoute, *.orderform-service-sublist-item {
+	font-style: italic;
+}
+*.list-row *.support_info, *.list-norow *.support_info {
+	width: 430px;
+	background: url(https://static.loopia.se/inline/support-icon.png) no-repeat;
+	min-height: 30px;
+	padding-left: 70px;
+	background-position: 12px center;
+}
+*.banner-wrapper *.campaign {
+	height: 185px;
+}
+*.sidebar-wrapper *.menu-middle ul li, *.sidebar-wrapper *.menu-middle ul li.selected ul.subcat li.subcat {
+	background-position: 0px 7px;
+}
+*.sidebar_search_div {
+	padding: 6px 0px 8px 10px;
+}
+*.dom-domain-search, table.tiny tr td.fee *.search, table.tiny tr td.domain *.search, *#content-wrapper *#campaign h1, *.dom-fee-search {
+	color: rgb(153, 153, 153);
+}
+*.front-info-nopic, *.nav *.navigate {
+	height: 22px;
+}
+*#package-start-images {
+	z-index: 20;
+	margin-top: 145px;
+	height: 129px;
+	margin-left: 5px;
+}
+*.front-small-wrapper *.front-info, *.front-info, *#sidebar *.hl-top {
+	height: 33px;
+}
+*.footer-wrapper *.footer *.footer-col ul li {
+	border-bottom: 1px rgb(187, 187, 187) solid;
+}
+*.followFacebook {
+	background-image: url(/loopiaweb/images/follow/facebook.png);
+}
+*#sidebar *.s_content ul.domain li, ul.packages li, *.sidebar-wrapper *.menu-middle ul li, *.sidebar-wrapper *.menu-middle ul li.olist, *#sidebar *.s_content ul.domaintasks li, *#sidebar *.s_content ul li, *#content ul li {
+	list-style-type: none;
+}
+ul.packages li, *#content ul li {
+	padding: 0px 0px 0px 20px;
+}
+*.orderform-service-label {
+	width: auto;
+}
+*.share-box-text {
+	padding: 10px 10px 7px 0;
+}
+*.hl {
+	margin: 7px 0px 10px 0px;
+	height: 1px;
+}
+*.p-small-tintr, *.p-small-notintr, *.p-small-notint, *.p-fp-small-tintr, *.p-small-tint {
+	width: 73px;
+}
+table.sub tr td {
+	padding: 3px 0px 3px 0px;
+}
+*#video-view {
+	width: 607px;
+	height: 544px;
+	margin-top: -100px;
+	z-index: 1500;
+	background: url(https://static.loopia.se/loopiaweb/images/video-on-start-page/video_box.png);
+	padding: 35px 60px 30px 90px;
+	margin-left: -550px;
+}
+*#content-wrapper *#campaign h1 {
+	font: 22px Arial, Helvetica, sans-serif;
+	margin: 10px 0px 5px 0px;
+}
+*#footer3 {
+	height: 164px;
+	background: url(https://static.loopia.se/inline/footer-8.png) no-repeat;
+}
+*#footer2 {
+	background: url(https://static.loopia.se/inline/footer-6.png) no-repeat;
+	height: 237px;
+}
+*.sub-wrapper-bottom {
+	padding: 7px 0px;
+	background-position: left bottom;
+	background: transparent url(https://static.loopia.se/inline/sublist-bottom2.png) no-repeat;
+}
+*.dom-order {
+	height: 21px;
+}
+*.content-bottom a, *.sidebar-wrapper *.menu-middle3 h3, a, *.sidebar-wrapper *.menu-middle, table.spec2 tr td.tinted strong, *.dom-fee-headline, table.spec tr td.top, *.sidebar-wrapper *.menu-top, *.dom-order-headline, *.dom-status-headline, *.sidebar-wrapper *.menu-middle2, ol.sup, *.dom-domain-headline, *.lists tr td.top, *.sidebar-wrapper *.menu-middle3 {
+	color: rgb(119, 119, 119);
+}
+form.login {
+	text-align: left;
+	padding: 4px 20px 0px 0px;
+	line-height: 21px;
+}
+*.input-wrapper *.input, *.code, *.input-wrapper *.invoice {
+	width: 512px;
+	padding: 20px;
+}
+*.start-col2-long {
+	width: 140px;
+}
+pre {
+	border: 1px rgb(170, 182, 119) solid;
+	padding: 10px 0px 10px 15px;
+}
+*.sidebar-wrapper *.menu-middle3 *.browser-new {
+	background: url(https://static.loopia.se/inline/browser-new.png) no-repeat;
+}
+*.sidebar-wrapper *.menu-top, *#sidebar *.hl-top {
+	background: url(https://static.loopia.se/inline/sb-hl-top.png) no-repeat;
+}
+*.sidebar-wrapper *.menu-middle3 *.init {
+	background: url(https://static.loopia.se/inline/icon-init-mini.gif) no-repeat;
+}
+*.list-norow, *.list-row {
+	padding: 4px 0px 4px 0px;
+}
+*#content-wrapper {
+	padding: 10px 19px 0px 19px;
+}
+*.list-row {
+	height: 18px;
+}
+*.dom-separator {
+	padding-bottom: 8px;
+}
+*.sidebar-wrapper *.menu-middle3 *.dnssec_working_but_not_verified, *.sidebar-wrapper *.menu-middle3 *.dnssec_working_and_verified, *.sidebar-wrapper *.menu-middle3 *.browser-new, *.sidebar-wrapper *.menu-middle3 *.ipv6, *.sidebar-wrapper *.menu-middle3 *.dnssec_not_working, *.sidebar-wrapper *.menu-middle3 *.ipv4, *.sidebar-wrapper *.menu-middle3 *.init, *.sidebar-wrapper *.menu-middle3 *.browser-old {
+	padding: 0px 10px 0px 53px;
+}
+table.spec tr td.top {
+	padding: 8px 8px 8px 6px;
+	font-size: 13px;
+}
+*.p-fp-big-tintr, *.p-big-notint, *.package-start-info, *.p-big-tint, *.p-fp-big-notintr {
+	width: 160px;
+}
+*.p-small-tintr, *.p-fp-big-tintr, *.p-big-tint, *.lists tr td.tinted, *.p-grey-tint, *.p-fp-small-tintr, *.p-small-tint {
+	background: rgb(240, 239, 239) url(https://static.loopia.se/inline/login-bg2.png) repeat-x;
+}
+*.package-start-box h2 {
+	padding-top: 0;
+}
+*.front-small-wrapper *.front-bottom {
+	height: 6px;
+}
+*#support-icon-development {
+	background: url(https://static.loopia.se/loopiaweb/images/support_icons/support_development.png) no-repeat 0 -15px;
+}
+*.loginbox-btn-home div {
+	margin-top: 2px;
+	width: 20px;
+	background: url(https://static.loopia.se/inline/btn-logout-home.png) no-repeat;
+	height: 15px;
+}
+*.select-transfer {
+	width: 25px;
+	padding-right: 16px;
+}
+*#sidebar *.s_content ul.domain li, *.c-wrapper *.contents ul li.subli, *.c-wrapper *.contents ul li, dl dt, *.footer-wrapper *.footer *.footer-col ul li {
+	background: url(https://static.loopia.se/inline/arrow.png) no-repeat;
+}
+*.sidebar_search_div *.textactive, *.sidebar_search_div *.text {
+	width: 185px;
+}
+*.input-wrapper *.invoice {
+	background-color: rgb(255, 255, 227);
+}
+*#video-view, *#popout-from-right-col, *#package-start-images, *#hideBackground {
+	position: absolute;
+}
+*.p-grey {
+	padding-bottom: 4px;
+	background: rgb(255, 255, 255) url(https://static.loopia.se/inline/hosting-table-grey.png) no-repeat;
+	height: 150px;
+}
+table {
+	margin: 3px 0px 3px 0px;
+}
+*.code {
+	border: 1px rgb(204, 204, 204) solid;
+	margin: 15px 0px 15px 0px;
+	font: 11px "Courier New", Courier, monospace;
+}
+*.list-row *.support-subj, *.list-norow *.support-subj {
+	width: 460px;
+}
+*.sidebar-wrapper *.menu-middle ul li.selected {
+	border-right: 1px rgb(221, 221, 221) solid;
+	background: url(https://static.loopia.se/inline/arrow4-down.gif) no-repeat;
+	background-position: left 8px;
+}
+*.box_right {
+	margin: 5px 0 10px 20px;
+}
+*.nav {
+	height: 20px;
+}
+*.input-wrapper *.input *.separator, *.input-wrapper *.invoice *.separator {
+	padding: 5px 0px 10px 0px;
+}
+html, body, *.lists1 tr td a, ul#menulist, table.tiny, table.sub, table.spec, *#content ul.regular, img, *.lists1, *.lists, *.lists1 tr, *.footer-wrapper *.footer *.footer-col ul, *.lists tr, table.tiny tr, table.sub tr, h4, dl, *.lists tr td.img, *.c-wrapper *.contents ul, *.lists tr td.img2, *#content ul, form, table.account, *#content-wrapper *#campaign h1, a, table, ul.packages, *.searchdomain form, table.account tr, table.account tr td, table.spec2, table.tiny tr td, p, *#sidebar *.s_content ul.domaintasks li, ol.sup {
+	padding: 0px;
+}
+*.box_right, *.img-right, *.app-link-img, ul#subtabslist, *.video-view-closeBtn, *.package-start-moreinfo, *#login, *.package-start-moreinfo-o365, *.pic-right {
+	float: right;
+}
+*#support-icon-oci {
+	background: url(https://static.loopia.se/loopiaweb/images/support_icons/support_oci.png) no-repeat 0 -15px;
+}
+*.orderform-service-list-item, *.orderform-service-sublist-item {
+	padding-left: 20px;
+}
+a.pdf-link {
+	background: url(https://www.loopia.se/inline/icon-pdf.gif) 0 2px no-repeat;
+	padding: 4px 10px 4px 24px;
+}
+*#sidebar {
+	background: rgb(255, 255, 255) url(https://static.loopia.se/inline/sidebar-bg.png) repeat-y;
+}
+table.tiny tr td.domain-serb {
+	width: 270px;
+}
+*#support-icon-economy {
+	background: url(https://static.loopia.se/loopiaweb/images/support_icons/support_economy.png) no-repeat 0 -15px;
+}
+*.small-cap h3 {
+	padding: 23px 0px 0px 0px;
+}
+*#content-nopadding {
+	padding: 0px 0px 10px 0px;
+}
+*.expand, *.collapse {
+	background-position: 0px 1px;
+}
+*.loginbox-btn {
+	background: url(https://static.loopia.se/inline/btn-logout_left.png) left 2px no-repeat;
+}
+a:hover, *#sidebar *.s_content a:hover, *.list-row a:hover, *.list-norow a:hover, ul#subtabslist li a:hover {
+	color: rgb(136, 0, 0);
+}
+*.sidebar_search_div *.text {
+	background: rgb(255, 255, 255) url(https://static.loopia.se/inline/kdb-puls.gif) repeat-x;
+}
+*.supexpand a:hover {
+	background-color: rgb(136, 136, 136);
+}
+*.dom-order-headline, *.dom-status-headline, *.dom-domain-headline {
+	padding-bottom: 10px;
+}
+*.sidebar-wrapper a.inactive, a.inactive:hover, *.qoute {
+	color: rgb(170, 170, 170);
+}
+table tr td.top {
+	padding-top: 0px;
+}
+*.sidebar-wrapper *.menu-middle ul li, table.spec2 tr td.tinted, *.sidebar-wrapper *.menu-middle3 p, table.spec2 tr td, *.sidebar-wrapper *.menu-middle ul li.olist, *#sidebar *.s_content ul li {
+	border-bottom: 1px rgb(221, 221, 221) solid;
+}
+ul#menulist li a:hover, ul#subtabslist li a:hover {
+	border-bottom: 1px rgb(136, 0, 0) solid;
+}
+*.followBlog {
+	margin-left: 4px;
+	background-image: url(/loopiaweb/images/follow/blogg.png);
+}
+*.start-col3, *.start-col2 {
+	width: 70px;
+}
+*#content-wrapper *#campaign *.flash {
+	margin: 5px 0px 20px 0px;
+}
+*.orderform-box-image {
+	margin-bottom: 25px;
+	clear: left;
+}
+html, body {
+	min-width: 900px;
+}
+*.tab-info, *.tab-info2, *.tab-mysql {
+	width: 510px;
+}
+*#sidebar *.s_content ul.domaintasks {
+	background: rgb(204, 204, 204);
+	margin: 0px 5px 0px 5px;
+}
+*.dom-order-headline, *.dom-order {
+	width: 52px;
+}
+*.front-small-wrapper *.front-bottom, *.front-small-wrapper *.front-info, *.front-small-wrapper *.front-middle, *.front-small-wrapper {
+	width: 280px;
+}
+*.sidebar-wrapper *.menu-middle, *.sidebar-wrapper *.menu-middle3 {
+	background: url(https://static.loopia.se/inline/sb-content-bg.png) repeat-y;
+}
+*.red {
+	color: rgb(204, 0, 0);
+}
+*.link-to-blog {
+	background: transparent url(https://reseller.loopia.se/inline/arrow_grey.gif) no-repeat scroll left 3px;
+	margin-left: 7px;
+	padding-left: 11px;
+}
+*.list-row *.support_info a:hover, *.list-norow *.support_info a:hover, *.video-view-content a:hover {
+	border-bottom: 1px solid rgb(221, 0, 0);
+}
+a.link-btn, a.link-btn:hover {
+	padding: 5px 8px;
+}
+*.sidebar-wrapper *.menu-bottom, *.sub-wrapper, *.dom-separator, *.front-info, *#footer-wrapper, *#hideBackground, *.banner-wrapper, *.input-wrapper, *#header-wrapper, *.all, *.list-norow, *#header-swe, *.c-wrapper *.contents *.col-wrapper, *.underline, *#subtabs, *.support-icon a, *.support-icon a:hover, *.supexpand, *#content-wrapper2, *.sub-wrapper-bottom, *#header-serb, *.ctop, table, *.content-bottom, *.front-info-nopic, *#middle-wrapper, *.support-icon a span, *.nav, *.domainsearch, *.list-row {
+	width: 100%;
+}
+*.skicka, *.skicka-yes, *.skicka-no, *#subtabs {
+	margin-top: 5px;
+}
+table.spec tr td, table tr td, *.content-bottom {
+	vertical-align: top;
+}
+*#subtabs {
+	background: url(https://static.loopia.se/inline/subtabs-bg.png) repeat-x;
+	height: 40px;
+}
+*.wrapper {
+	width: 900px;
+}
+*.support-icon a, *.support-icon a:hover {
+	height: 100%;
+}
+table.spec tr td {
+	padding: 4px 8px 4px 6px;
+	background: url(https://static.loopia.se/inline/table-right.png) repeat-y;
+}
+*#content-wrapper2 {
+	background: url(https://static.loopia.se/inline/sidebar-bg.png) repeat-y;
+}
+*.p-wrapper2, *.p-wrapper1 {
+	margin: 0px 4px 15px 0px;
+}
+pre, p, *.lists {
+	margin: 5px 0px 15px 0px;
+}
+*.domainsearch {
+	border-right: 1px rgb(136, 136, 136) solid;
+	background: rgb(244, 244, 244) url(https://static.loopia.se/inline/domainsearch.png) no-repeat;
+	background-position: top center;
+	border-left: 1px rgb(136, 136, 136) solid;
+}
+*.tab-info2 {
+	padding: 0px 0px 0px 70px;
+}
+table.spec3 tr td, *.dom-status-inactive, *.dom-status-search, *.support-icon a span, *.dom-status-active {
+	height: 19px;
+}
+*.expand {
+	background: transparent url(https://static.loopia.se/inline/expand.gif) no-repeat;
+}
+*.sidebar-wrapper *.menu-middle3 *.dnssec_working_and_verified {
+	background: url(https://static.loopia.se/inline/dnssec_working_and_verified.png) no-repeat;
+}
+*.content-superwrapper {
+	background: rgb(239, 239, 239) url(https://static.loopia.se/inline/content-top6.png) repeat-x;
+}
+*.skicka, *.sidebar-wrapper *.menu-middle p, *#footer3, *#footer2, *.dlist-left, *.code, *#sidebar *.s_content p, *.orderform-service-label, *#sidebar *.s_content strong, a.link-btn, a.link-btn:hover, *.package-start-info, *.wrapper-info-text, a.btnHref, h1, *#sidebar *.s_content a, h2, *.list-row *.support_info, *.list-norow *.support_info {
+	color: rgb(102, 102, 102);
+}
+table.spec tr td.tinted, table.spec tr td, *#content-wrapper2 {
+	background-position: right;
+}
+*#content ul.regular li {
+	margin: 0px 0px 0px 5px;
+	list-style-type: disc;
+	padding: 0px 0px 0px 15px;
+}
+*.support-icon a span, *.support-icon a, *.support-icon a:hover, *.app-link-div a, *.share-box-icons a:hover, *.share-box-icons a, *.package-start-moreinfo-o365 a, *.package-start-moreinfo-o365 a:hover {
+	border: 0;
+}
+*.content-top, *.c-wrapper *.contents ul li.subli, *.c-wrapper *.contents ul li, dl dt, *#sidebar *.s_content ul.domaintasks, *.tab-mysql {
+	background-position: top left;
+}
+*#video-view, *.dom-order-search, *.dom-order-inactive, table.tiny tr td.checkit input.search, table.tiny tr td.checkit input.inactive {
+	display: none;
+}
+*#sidebar *.hl-middle, ul#menulist li a, *.dlist-left, *.video-view-content a, *.dom-fee-headline, table.spec tr td.top, *.c-wrapper a, *#sidebar *.hl-top, h4, *.error-label, *.to_pay, *.lists tr td.top, *.strong, *.dom-domain-headline, *.video-view-content a:hover, table.spec3 tr td.top, *.support-icon a, *.support-icon a:hover, *.sidebar-wrapper *.menu-middle3 h3, *.logged-in-user, *.highlight, *.front-info-nopic, *.sidebar-wrapper *.menu-top, *.c-wrapper *.contents *.col-wrapper *.col1 *.caption, *.c-wrapper *.contents *.col-wrapper *.col2 *.caption, a.campaign, *.list-row *.support_info a, *.list-norow *.support_info a, *.dom-order-headline, *.dom-status-headline, dl dt, *.sidebar-wrapper *.menu-middle2 {
+	font-weight: bold;
+}
+*.input-wrapper *.info h2, ul#subtabslist li a, input, textarea, h3 {
+	color: rgb(68, 68, 68);
+}
+*#sidebar, *#sidebar *.s_bottom {
+	width: 262px;
+}
+*.tablebottom {
+	border-bottom: 1px solid rgb(170, 182, 119);
+	border-top: 1px solid rgb(170, 182, 119);
+	background-image: none;
+	background: rgb(238, 248, 199);
+}
+*.list-row *.count, *.list-norow *.count, *.dlist-left {
+	width: 40px;
+}
+ul.packages {
+	margin: 11px 0px 0px 0px;
+}
+*.dom-domain-search, *.nav *.navigate, table.tiny tr td.domain, *.dom-domain-active, *.dom-domain-inactive, *.dom-domain-headline {
+	width: 330px;
+}
+html, body, table {
+	line-height: 18px;
+}
+*.credit-card-logos {
+	background: url(https://static.loopia.se/loopiaweb/images/order/credit_cards.png) no-repeat;
+}
+*.support-icon a, *.support-icon a:hover, *.supexpand a, *.shead, *.sidebar-wrapper *.menu-middle3 p, *.sidebar-date {
+	font-size: 11px;
+}
+*.sidebar-wrapper *.menu-middle ul li.selected ul.subcat li.subcat {
+	background: url(https://static.loopia.se/inline/arrow4-sub.gif) no-repeat;
+}
+*.input-wrapper *.info, *.input-wrapper *.success, *.input-wrapper *.error {
+	padding: 7px 20px 7px 98px;
+	width: 434px;
+}
+*.sidebar-wrapper *.menu-middle2 {
+	background: url(https://static.loopia.se/inline/sidebar-middle.png) no-repeat;
+}
+table.tiny tr td.checkit, *.support-icon a, *.support-icon a:hover, *.follow, *.dom-order {
+	text-align: center;
+}
+*.sidebar-wrapper *.menu-middle3 {
+	padding: 5px 1px 10px 8px;
+	width: 253px;
+}
