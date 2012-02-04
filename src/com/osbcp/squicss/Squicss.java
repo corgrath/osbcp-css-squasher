@@ -3,6 +3,8 @@ package com.osbcp.squicss;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.HashSet;
+import java.util.Set;
 
 import org.w3c.css.sac.InputSource;
 import org.w3c.dom.css.CSSRule;
@@ -19,10 +21,10 @@ public class Squicss {
 
 	public static void main(final String[] args) throws IOException {
 
-		Optimizer logic = new Optimizer();
+		Opti2 logic = new Opti2();
 
 		// cssfile accessed as a resource, so must be in the pkg (in src dir).
-		InputStream stream = Squicss.class.getResourceAsStream("readme.css");
+		InputStream stream = Squicss.class.getResourceAsStream("loopia.css");
 		InputSource source = new InputSource(new InputStreamReader(stream));
 		CSSOMParser parser = new CSSOMParser();
 		CSSStyleSheet stylesheet = parser.parseStyleSheet(source, null, null);
@@ -35,28 +37,37 @@ public class Squicss {
 				CSSStyleRule styleRule = (CSSStyleRule) rule;
 
 				String selectorString = styleRule.getSelectorText();
-				//				System.out.println("selector:" + i + ": " + selector);
-				CSSStyleDeclaration styleDeclaration = styleRule.getStyle();
 
-				for (int j = 0; j < styleDeclaration.getLength(); j++) {
+				for (String select2 : selectorString.split(",")) {
 
-					String property = styleDeclaration.item(j);
-					String value = styleDeclaration.getPropertyCSSValue(property).getCssText();
-					//					System.out.println("property: " + property);
-					//					System.out.println("value: " + value);
-					//					System.out.println("priority: " + styleDeclaration.getPropertyPriority(property));
+					Selector selector = new Selector(select2.trim());
+					//				System.out.println("selector:" + i + ": " + selector);
+					CSSStyleDeclaration styleDeclaration = styleRule.getStyle();
 
-					Selector selector = new Selector(selectorString);
-					PropertyValue propertyValue = new PropertyValue(property, value);
+					Set<PropertyValue> values = new HashSet<PropertyValue>();
 
-					logic.register(propertyValue, selector);
+					for (int j = 0; j < styleDeclaration.getLength(); j++) {
+
+						String property = styleDeclaration.item(j);
+						String value = styleDeclaration.getPropertyCSSValue(property).getCssText();
+						//					System.out.println("property: " + property);
+						//					System.out.println("value: " + value);
+						//					System.out.println("priority: " + styleDeclaration.getPropertyPriority(property));
+
+						PropertyValue propertyValue = new PropertyValue(property, value);
+
+						values.add(propertyValue);
+
+					}
+
+					logic.register(selector, values);
 
 				}
 
 			}// end of StyleRule instance test
 		} // end of ruleList loop
 
-		logic.print();
+		logic.print2();
 
 	}
 }

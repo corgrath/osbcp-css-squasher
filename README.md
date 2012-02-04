@@ -34,9 +34,13 @@ To this:
 		color: red;
 	}
 	
-By packing and grouping the rules together, and decreasing the number of rows.
+By refactoring and reorganizing the CSS to;
 
-And of course, it is still possible to minify the CSS by using tools such as the [YUI Compressor](http://developer.yahoo.com/yui/compressor/).
+* Eliminate duplicated rules
+* and more!
+	
+
+And of course, it is still possible to minify the CSS afterwards by using tools such as the [YUI Compressor](http://developer.yahoo.com/yui/compressor/).
 
 Download
 ========================================
@@ -62,6 +66,6 @@ JavaDoc
 License
 ========================================
 
-What is Squicss CSS Optimizer? - Copyright 2011 Christoffer Pettersson, christoffer@christoffer.me
+Squicss CSS Optimizer - Copyright 2012 Christoffer Pettersson, christoffer@christoffer.me
 
 Licensed under the Apache License, Version 2.0

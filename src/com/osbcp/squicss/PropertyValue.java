@@ -1,9 +1,22 @@
 package com.osbcp.squicss;
 
+/**
+ * Represents a property and its value of a CSS rule.
+ * 
+ * @author <a href="mailto:christoffer@christoffer.me">Christoffer Pettersson</a>
+ */
+
 public final class PropertyValue {
 
 	private String property;
 	private String value;
+
+	/**
+	 * Creates a new PropertyValue based on a property and its value.
+	 * 
+	 * @param property The CSS property (such as 'width' or 'color').
+	 * @param value The value of the property (such as '100px' or 'red').
+	 */
 
 	public PropertyValue(final String property, final String value) {
 		this.property = property;
