@@ -1,7 +1,7 @@
 What is Squicss CSS Optimizer?
 ========================================
 
-Squicss CSS Optimizer is simply a clever CSS optimization tool that converts CSS from this:
+Squicss CSS Optimizer is simply a clever CSS optimization tool, written in Java, that converts CSS from this:
 
 	a {
 		width: 100px;
@@ -25,16 +25,18 @@ To this:
 		border: none;
 		padding: 10px;
 	}
+	
 	b, c, a {
 		width: 100px;
 	}
+	
 	b, c {
 		color: red;
 	}
 	
-By packing and grouping the rules together.
+By packing and grouping the rules together, and decreasing the number of rows.
 
-And of course, it is still possible to minify this CSS by using tools such as the [YUI Compressor](http://developer.yahoo.com/yui/compressor/).
+And of course, it is still possible to minify the CSS by using tools such as the [YUI Compressor](http://developer.yahoo.com/yui/compressor/).
 
 Download
 ========================================
@@ -46,70 +48,20 @@ https://github.com/corgrath/squicss-css-optimizer/downloads/
 How to use it in an Eclipse project
 ========================================
 
-Download the JUnit PMD Test Wrapper
-----------------------------------------
 
-Download the latest version of JUnit PMD Test Wrapper and add it to the project. 
+How to use it as a stand alone application
+========================================
 
-![alt text](https://github.com/corgrath/JUnit-PMD-Test-Wrapper/raw/master/doc/wiki/download_wrapper.png "Download JUnit-PMD-Test-Wrapper and add it to Eclipse")
 
-Download PMD
-----------------------------------------
-
-Download the latest version of PMD and add it to the project.
-
-Download PMD from: http://sourceforge.net/projects/pmd/files/pmd/4.2.5/ 
-
-![alt text](https://github.com/corgrath/JUnit-PMD-Test-Wrapper/raw/master/doc/wiki/download_pmd.png "Download PNG and add it to Eclipse")
-
-Create a JUnit test case
-----------------------------------------
-
-Write a JUnit test case using the wrapper.
-
-	package src;
-	
-	import com.osbcp.junitpmdtestwrapper.JUnitPMDTestWrapper;
-	
-	import org.junit.Test;
-	
-	public class TestPMD {
-	
-	        @Test
-	        public void testSRC() throws Exception {
-	
-	                JUnitPMDTestWrapper.run(this, "src/", "pmd.xml");
-	
-	        }
-	
-	}
-	
-![alt text](https://github.com/corgrath/JUnit-PMD-Test-Wrapper/raw/master/doc/wiki/create_pmd_test.png "Create the JUnit test in Eclipse")
-
-Create a PMD rule set file
-----------------------------------------
-
-Create a PMD rule set file and add it in the same folder as the test.
-
-Guide: http://pmd.sourceforge.net/rules/index.html
-
-Or download our sample file: https://github.com/corgrath/JUnit-PMD-Test-Wrapper/raw/master/doc/wiki/pmd.xml
-
-![alt text](https://github.com/corgrath/JUnit-PMD-Test-Wrapper/raw/master/doc/wiki/add_pmd_file.png "Create the rule files for PMD")
-
-Run and view the results
-----------------------------------------
-
-![alt text](https://github.com/corgrath/JUnit-PMD-Test-Wrapper/raw/master/doc/wiki/results.png "The JUnit results in Eclipse")
 
 JavaDoc
 ========================================
 
-http://dl.dropbox.com/u/8183146/persistent/projects/java_junit_pmd_test_wrapper/javadoc/index.html
+
 
 License
 ========================================
 
-JUnit PMD Test Wrapper - Copyright 2011 Christoffer Pettersson, christoffer@christoffer.me
+What is Squicss CSS Optimizer? - Copyright 2011 Christoffer Pettersson, christoffer@christoffer.me
 
 Licensed under the Apache License, Version 2.0
