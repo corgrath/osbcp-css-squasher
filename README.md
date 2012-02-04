@@ -1,7 +1,7 @@
 What is Squicss CSS Optimizer?
 ========================================
 
-Squicss CSS Optimizer is simply a clever CSS optimization tool that converts this:
+Squicss CSS Optimizer is simply a clever CSS optimization tool that converts CSS from this:
 
 	a {
 		width: 100px;
@@ -19,7 +19,7 @@ Squicss CSS Optimizer is simply a clever CSS optimization tool that converts thi
 		padding: 10px;
 	}
 	
-To:
+To this:
 	
 	c {
 		border: none;
@@ -31,7 +31,10 @@ To:
 	b, c {
 		color: red;
 	}
+	
+By packing and grouping the rules together.
 
+And of course, it is still possible to minify this CSS by using tools such as the [YUI Compressor](http://developer.yahoo.com/yui/compressor/).
 
 Download
 ========================================
