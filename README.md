@@ -5,6 +5,7 @@ Squicss CSS Optimizer is simply a clever CSS optimization tool, written in Java,
 
 	a {
 		width: 100px;
+		color: red;
 	}
 	
 	b {
@@ -12,29 +13,14 @@ Squicss CSS Optimizer is simply a clever CSS optimization tool, written in Java,
 		color: red;
 	}
 	
-	c {
-		width: 100px;
-		color: red;
-		border: none;
-		padding: 10px;
-	}
-	
 To this:
 	
-	c {
-		border: none;
-		padding: 10px;
-	}
-	
-	b, c, a {
+	a, b {
 		width: 100px;
-	}
-	
-	b, c {
 		color: red;
 	}
 	
-By refactoring and reorganizing the CSS to;
+By refactoring and reorganizing the CSS by:
 
 * Eliminate duplicated rules
 * and more!
