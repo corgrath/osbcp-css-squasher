@@ -1,7 +1,7 @@
-What is Squicss CSS Optimizer?
+What is SquiCSS Optimizer?
 ========================================
 
-Squicss CSS Optimizer is simply a clever CSS optimization tool, written in Java, that converts CSS from this:
+Squicss CSS Optimizer is simply a clever CSS optimization tool, written in Java, that converts CSS like this:
 
 	a {
 		width: 100px;
@@ -34,24 +34,25 @@ Download the latest version here:
 
 https://github.com/corgrath/squicss-css-optimizer/downloads/
 
-
 How to use it in an Eclipse project
 ========================================
 
+To be written.
 
 How to use it as a stand alone application
 ========================================
 
-
+To be written.
 
 JavaDoc
 ========================================
 
-
+To be written.
 
 License
 ========================================
 
-Squicss CSS Optimizer - Copyright 2012 Christoffer Pettersson, christoffer@christoffer.me
+SquiCSS Optimizer
+Copyright 2012 Christoffer Pettersson, christoffer@christoffer.me.
 
 Licensed under the Apache License, Version 2.0

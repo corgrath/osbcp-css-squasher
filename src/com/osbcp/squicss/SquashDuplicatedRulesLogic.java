@@ -2,9 +2,13 @@ package com.osbcp.squicss;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
-public class EliminateDuplicatesLogic {
+import com.osbcp.cssparser.PropertyValue;
+import com.osbcp.cssparser.Rule;
+
+public class SquashDuplicatedRulesLogic {
+
+	private int fixedDuplications = 0;
 
 	public List<Rule> packDuplicates(final List<Rule> rules) {
 
@@ -16,16 +20,26 @@ public class EliminateDuplicatesLogic {
 
 			if (ruleWithSaveValues != null) {
 
-				ruleWithSaveValues.addSelector(rule.getSelectors());
+				System.out.println("Squashing '" + rule.getSelectors() + "' to '" + ruleWithSaveValues.getSelectors() + "'.");
+				//				System.out.println(rule);
+				//				System.out.println(ruleWithSaveValues);
+				ruleWithSaveValues.addSelectors(rule.getSelectors());
+
+				fixedDuplications++;
 
 			} else {
+
 				newRules.add(rule);
+
 			}
 
 		}
 
-		// TODO Auto-generated method stub
 		return newRules;
+	}
+
+	public int fixedDuplications() {
+		return fixedDuplications;
 	}
 
 	private Rule contains(final List<Rule> newRules, final Rule targetRule) {
@@ -44,15 +58,15 @@ public class EliminateDuplicatesLogic {
 
 	private boolean hasSameValues(final Rule targetRule, final Rule rule) {
 
-		Set<PropertyValue> values = targetRule.getValues();
+		List<PropertyValue> values = targetRule.getPropertyValues();
 
-		if (targetRule.getValues().size() != rule.getValues().size()) {
+		if (targetRule.getPropertyValues().size() != rule.getPropertyValues().size()) {
 			return false;
 		}
 
 		for (PropertyValue value : values) {
 
-			if (!rule.getValues().contains(value)) {
+			if (!rule.getPropertyValues().contains(value)) {
 				return false;
 			}
 

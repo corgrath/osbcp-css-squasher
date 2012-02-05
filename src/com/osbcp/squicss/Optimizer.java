@@ -1,22 +1,26 @@
 package com.osbcp.squicss;
 
+import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Set;
+
+import com.osbcp.cssparser.PropertyValue;
+import com.osbcp.cssparser.Selector;
 
 public class Optimizer {
 
-	private Map<PropertyValue, Set<Selector>> entries = new HashMap<PropertyValue, Set<Selector>>();
+	private Map<PropertyValue, List<Selector>> entries = new LinkedHashMap<PropertyValue, List<Selector>>();
 
 	public void register(final PropertyValue propertyValue, final Selector selector) {
 
-		Set<Selector> selectors = entries.get(propertyValue);
+		List<Selector> selectors = entries.get(propertyValue);
 
 		if (selectors == null) {
-			selectors = new HashSet<Selector>();
+			selectors = new ArrayList<Selector>();
 			entries.put(propertyValue, selectors);
 		}
 
@@ -59,14 +63,14 @@ public class Optimizer {
 
 		System.out.println(entries);
 
-		Map<Set<Selector>, Set<PropertyValue>> erik = repack(entries);
+		Map<List<Selector>, List<PropertyValue>> erik = repack(entries);
 
 		System.out.println(erik);
 
-		for (Entry<Set<Selector>, Set<PropertyValue>> entry : erik.entrySet()) {
+		for (Entry<List<Selector>, List<PropertyValue>> entry : erik.entrySet()) {
 
-			Set<Selector> selectors = entry.getKey();
-			Set<PropertyValue> propertyValues = entry.getValue();
+			List<Selector> selectors = entry.getKey();
+			List<PropertyValue> propertyValues = entry.getValue();
 
 			//			for (String selectorString : selectors) {
 			//
@@ -107,14 +111,14 @@ public class Optimizer {
 
 	}
 
-	private Map<Set<Selector>, Set<PropertyValue>> repack(final Map<PropertyValue, Set<Selector>> stylesheet) {
+	private Map<List<Selector>, List<PropertyValue>> repack(final Map<PropertyValue, List<Selector>> stylesheet) {
 
-		Map<Set<Selector>, Set<PropertyValue>> newStylesheet = new HashMap<Set<Selector>, Set<PropertyValue>>();
+		Map<List<Selector>, List<PropertyValue>> newStylesheet = new HashMap<List<Selector>, List<PropertyValue>>();
 
-		for (Entry<PropertyValue, Set<Selector>> entry : stylesheet.entrySet()) {
+		for (Entry<PropertyValue, List<Selector>> entry : stylesheet.entrySet()) {
 
 			PropertyValue propertyValue = entry.getKey();
-			Set<Selector> selectors = entry.getValue();
+			List<Selector> selectors = entry.getValue();
 
 			register2(newStylesheet, selectors, propertyValue);
 
@@ -124,12 +128,12 @@ public class Optimizer {
 		return newStylesheet;
 	}
 
-	public void register2(final Map<Set<Selector>, Set<PropertyValue>> newStylesheet, final Set<Selector> selectors, final PropertyValue propertyValue) {
+	public void register2(final Map<List<Selector>, List<PropertyValue>> newStylesheet, final List<Selector> selectors, final PropertyValue propertyValue) {
 
-		Set<PropertyValue> propertyValues = newStylesheet.get(selectors);
+		List<PropertyValue> propertyValues = newStylesheet.get(selectors);
 
 		if (propertyValues == null) {
-			propertyValues = new HashSet<PropertyValue>();
+			propertyValues = new ArrayList<PropertyValue>();
 			newStylesheet.put(selectors, propertyValues);
 		}
 
@@ -137,7 +141,7 @@ public class Optimizer {
 
 	}
 
-	public String implode(final Set<Selector> values) {
+	public String implode(final List<Selector> values) {
 
 		StringBuilder sb = new StringBuilder();
 

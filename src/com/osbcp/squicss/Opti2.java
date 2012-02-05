@@ -4,9 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import com.osbcp.cssparser.PropertyValue;
+import com.osbcp.cssparser.Rule;
+import com.osbcp.cssparser.Selector;
+
 public class Opti2 {
 
-	List<Rule> rules = new ArrayList<Rule>();
+	private List<Rule> rules = new ArrayList<Rule>();
 
 	public void register(final Selector selector, final Set<PropertyValue> propertyValues) {
 
@@ -17,18 +21,10 @@ public class Opti2 {
 
 		rules.add(rule);
 
-		//		}
-
 	}
 
-	public void print2() {
-
-		rules = new EliminateDuplicatesLogic().packDuplicates(rules);
-
-		for (Rule rule : rules) {
-			System.out.println(rule.toString());
-		}
-
+	public List<Rule> getRules() {
+		return rules;
 	}
 
 }
