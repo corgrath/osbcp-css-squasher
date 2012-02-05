@@ -1,7 +1,10 @@
-What is SquiCSS Optimizer?
+Please note: Work still in progress, first version not yet availale!
 ========================================
 
-Squicss CSS Optimizer is simply a clever CSS optimization tool, written in Java, that converts CSS like this:
+OSBCP CSS Squasher
+========================================
+
+OSBCP CSS Squasher is simply a clever CSS squasher tool, written in Java, that converts CSS like this:
 
 	a {
 		width: 100px;
@@ -13,10 +16,17 @@ Squicss CSS Optimizer is simply a clever CSS optimization tool, written in Java,
 		color: red;
 	}
 	
+	c {
+		color red;
+	}
+	
 To this:
 	
 	a, b {
 		width: 100px;
+	}
+	
+	a, b, c {
 		color: red;
 	}
 	
@@ -28,11 +38,21 @@ By refactoring and reorganizing the CSS by:
 
 And of course, it is still possible to minify the CSS afterwards by using tools such as the [YUI Compressor](http://developer.yahoo.com/yui/compressor/).
 
+Live demo
+========================================
+
+http://osbcp-css-squasher-demo.appspot.com/
+
+
 Download
 ========================================
 Download the latest version here:
 
 https://github.com/corgrath/squicss-css-optimizer/downloads/
+
+Requires:
+
+* [OSBCP CSS Parser](https://github.com/corgrath/osbcp-css-parser)
 
 How to use it in an Eclipse project
 ========================================

@@ -15,19 +15,20 @@
  * information regarding copyright ownership.
  */
 
-package com.osbcp.squicss.code;
+package com.osbcp.csssquasher.code;
 
 import org.junit.Test;
 
+import com.osbcp.junitcheckstyletestwrapper.JUnitCheckstyleTestWrapper;
 import com.osbcp.junitpmdtestwrapper.JUnitPMDTestWrapper;
 
 /**
- * Contains the PMD tests
+ * Contains the Checkstyle tests
  * 
  * @author <a href="mailto:christoffer@christoffer.me">Christoffer Pettersson</a>
  */
 
-public class TestPMDTest {
+public class TestCheckstyle {
 
 	/**
 	 * Tests the SRC-folder
@@ -37,7 +38,7 @@ public class TestPMDTest {
 
 	@Test
 	public void testSrc() throws Exception {
-		JUnitPMDTestWrapper.run(this, "./src/", "pmd.xml");
+		JUnitCheckstyleTestWrapper.run(this, "./src/", "checkstyle.xml");
 	}
 
 	/**
