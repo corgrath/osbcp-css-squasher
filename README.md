@@ -29,8 +29,8 @@ To this:
 	
 By squashing and refactoring your CSS code and then it uses the [YUI Compressor](http://developer.yahoo.com/yui/compressor/) to turn it into this:
 
-	a,b{width:100px;color:red}	
-	
+	a,b{width:100px;color:red}
+		
 
 Try it yourself
 ========================================
