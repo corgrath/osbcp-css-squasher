@@ -42,7 +42,7 @@ public class ResultObject {
 	 * @return The original CSS from the input source.
 	 */
 
-	public String getOriginal() {
+	public String getOriginalCSS() {
 		return originalCSS;
 	}
 
