@@ -30,9 +30,10 @@ To this:
 		color: red;
 	}
 	
-By squashing and refactoring your CSS code.	
+By squashing and refactoring your CSS code, and then it uses the [YUI Compressor](http://developer.yahoo.com/yui/compressor/) to turn it into this:
 
-And of course, it is still possible to minify the CSS afterwards by using tools such as the [YUI Compressor](http://developer.yahoo.com/yui/compressor/).
+	a,b{width:100px;color:red}	
+	
 
 Live demo
 ========================================
@@ -56,13 +57,17 @@ Dependencies:
 How to use it in an Eclipse project
 ========================================
 
-	Usage: java -jar osbcp-css-squasher-x.y.z.jar [input file]
+To be written.
+	
 	
 
 How to use it as a stand alone application
 ========================================
 
-To be written.
+Usage:
+
+	java -jar osbcp-css-squasher-x.y.z.jar [input file]
+
 
 JavaDoc
 ========================================
@@ -72,7 +77,7 @@ To be written.
 License
 ========================================
 
-SquiCSS Optimizer
-Copyright 2012 Christoffer Pettersson, christoffer@christoffer.me.
+OSBCP CSS Squasher
+Copyright 2012 Christoffer Pettersson, christoffer[at]christoffer.me.
 
 Licensed under the Apache License, Version 2.0
