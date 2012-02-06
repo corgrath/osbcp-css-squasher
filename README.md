@@ -1,6 +1,3 @@
-Please note: Work still in progress, first version not yet availale!
-========================================
-
 OSBCP CSS Squasher
 ========================================
 
@@ -38,7 +35,7 @@ By squashing and refactoring your CSS code and then it uses the [YUI Compressor]
 Try it yourself
 ========================================
 
-[Click here for a live demo.](http://osbcp-css-squasher-demo.appspot.com/)
+[Click here for an online demo tool.](http://osbcp-css-squasher-demo.appspot.com/)
 
 
 
@@ -111,12 +108,13 @@ Please view the JavaDoc for additional information.
 JavaDoc
 ========================================
 
-To be written.
+http://dl.dropbox.com/u/8183146/persistent/projects/java_osbcp_css_squasher/javadoc/index.html
+
 
 Please report bugs
 ========================================
 
-Please report any bugs by [creating a new issuepage](https://github.com/corgrath/osbcp-css-squasher/issues).
+Please report any bugs by [creating a new issue](https://github.com/corgrath/osbcp-css-squasher/issues).
 
 
 License

@@ -1,3 +1,20 @@
+/*
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * 
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ */
+
 package com.osbcp.csssquasher;
 
 import java.io.File;
@@ -12,7 +29,20 @@ import com.osbcp.cssparser.CSSParser;
 import com.osbcp.cssparser.Rule;
 import com.yahoo.platform.yui.compressor.CssCompressor;
 
-public class Squasher {
+/**
+ * Main class for OSBCP CSS Squasher.
+ * 
+ * @author <a href="mailto:christoffer@christoffer.me">Christoffer Pettersson</a>
+ */
+
+public final class Squasher {
+
+	/**
+	 * Main entry point for using the minifer as a stand alone application.
+	 * 
+	 * @param arguments First argument [0] should be the path of the CSS file that should be minified.
+	 * @throws Exception If any errors occur.
+	 */
 
 	public static void main(final String[] arguments) throws Exception {
 
@@ -35,6 +65,14 @@ public class Squasher {
 		}
 
 	}
+
+	/**
+	 * Squashes CSS.
+	 * 
+	 * @param originalCSS String representation of CSS.
+	 * @return Squashed, refacotored and compressed CSS.
+	 * @throws Exception If any error occurs.
+	 */
 
 	public static ResultObject squash(final String originalCSS) throws Exception {
 
@@ -73,9 +111,18 @@ public class Squasher {
 
 	}
 
-	private static String compress(final StringBuilder log, final String originalCSS) throws IOException {
+	/**
+	 * Performs the YUI Compressor on a String.
+	 * 
+	 * @param log Log object.
+	 * @param css The CSS that should be compressed.
+	 * @return Compressed CSS.
+	 * @throws IOException If any error occurs.
+	 */
 
-		StringReader reader = new StringReader(originalCSS);
+	private static String compress(final StringBuilder log, final String css) throws IOException {
+
+		StringReader reader = new StringReader(css);
 
 		StringWriter writer = new StringWriter();
 
@@ -85,7 +132,7 @@ public class Squasher {
 
 		String compressedCSS = writer.toString();
 
-		log.append("Compressed the CSS from '" + originalCSS.length() + "' characters to '" + compressedCSS.length() + "' characters.\n");
+		log.append("Compressed the CSS from '" + css.length() + "' characters to '" + compressedCSS.length() + "' characters.\n");
 
 		return compressedCSS;
 
