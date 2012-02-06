@@ -85,13 +85,13 @@ public final class Squasher {
 			rules = squasher.packDuplicates(rules);
 			int squashed = squasher.getNumberOfSquashed();
 			log.append("Managed to squash '" + squashed + "' rules.\n");
-			//			print(rules);
+			System.out.println(toString(rules));
 
 			LogicRefactor refactorizer = new LogicRefactor(log);
 			rules = refactorizer.refactor(rules);
 			int refactored = refactorizer.getNumberOfRefactored();
 			log.append("Managed to refactor '" + refactored + "' rules.\n");
-			//			print(rules);
+			System.out.println(toString(rules));
 
 			// Job done if no more to squash or refactor 
 			if (squashed == 0 && refactored == 0) {
