@@ -30,15 +30,16 @@ To this:
 		color: red;
 	}
 	
-By squashing and refactoring your CSS code, and then it uses the [YUI Compressor](http://developer.yahoo.com/yui/compressor/) to turn it into this:
+By squashing and refactoring your CSS code and then it uses the [YUI Compressor](http://developer.yahoo.com/yui/compressor/) to turn it into this:
 
 	a,b{width:100px;color:red}	
 	
 
-Live demo
+Try it yourself
 ========================================
 
-http://osbcp-css-squasher-demo.appspot.com/
+[Click here for a live demo.](http://osbcp-css-squasher-demo.appspot.com/)
+
 
 
 Download
@@ -54,7 +55,7 @@ Dependencies:
 * [YUI Compressor](http://yuilibrary.com/download/yuicompressor/)
 
 
-How to use it in an Eclipse project
+How to use it in a Java project
 ========================================
 
 To be written.
@@ -73,6 +74,12 @@ JavaDoc
 ========================================
 
 To be written.
+
+Please report bugs
+========================================
+
+Please report any bugs on the [issue page](https://github.com/corgrath/osbcp-css-squasher/issues).
+
 
 License
 ========================================
