@@ -30,11 +30,7 @@ To this:
 		color: red;
 	}
 	
-By refactoring and reorganizing the CSS by:
-
-* Eliminate duplicated rules
-* and more!
-	
+By squashing and refactoring your CSS code.	
 
 And of course, it is still possible to minify the CSS afterwards by using tools such as the [YUI Compressor](http://developer.yahoo.com/yui/compressor/).
 
@@ -48,16 +44,20 @@ Download
 ========================================
 Download the latest version here:
 
-https://github.com/corgrath/squicss-css-optimizer/downloads/
+https://github.com/corgrath/osbcp-css-squasher/downloads/
 
-Requires:
+Dependencies:
 
 * [OSBCP CSS Parser](https://github.com/corgrath/osbcp-css-parser)
+* [Commons IO](http://commons.apache.org/io/download_io.cgi)
+* [YUI Compressor](http://yuilibrary.com/download/yuicompressor/)
+
 
 How to use it in an Eclipse project
 ========================================
 
-To be written.
+	Usage: java -jar osbcp-css-squasher-x.y.z.jar [input file]
+	
 
 How to use it as a stand alone application
 ========================================

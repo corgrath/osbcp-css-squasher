@@ -13,10 +13,12 @@ import com.osbcp.cssparser.Selector;
 
 public class LogicSquashDuplicatesTest {
 
+	StringBuilder log;
 	LogicSquashDuplicates logic;
 
 	public LogicSquashDuplicatesTest() {
-		this.logic = new LogicSquashDuplicates();
+		log = new StringBuilder();
+		this.logic = new LogicSquashDuplicates(log);
 	}
 
 	@Test

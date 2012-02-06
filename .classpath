@@ -9,6 +9,7 @@
 	<classpathentry kind="lib" path="libs/pmd-4.2.5.jar"/>
 	<classpathentry kind="lib" path="libs/checkstyle-5.3-all.jar"/>
 	<classpathentry kind="lib" path="libs/commons-io-2.1.jar"/>
+	<classpathentry kind="lib" path="libs/yuicompressor-2.4.7.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="libs/osbcp-css-parser-1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>

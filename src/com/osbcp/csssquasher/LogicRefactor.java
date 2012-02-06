@@ -12,13 +12,17 @@ import com.osbcp.cssparser.PropertyValue;
 import com.osbcp.cssparser.Rule;
 import com.osbcp.cssparser.Selector;
 
-public class LogicRefactor {
+class LogicRefactor {
 
+	private final StringBuilder log;
+	private Map<PropertyValue, List<List<Selector>>> entries = new LinkedHashMap<PropertyValue, List<List<Selector>>>();
 	private int fixed;
 
-	private Map<PropertyValue, List<List<Selector>>> entries = new LinkedHashMap<PropertyValue, List<List<Selector>>>();
+	public LogicRefactor(final StringBuilder log) {
+		this.log = log;
+	}
 
-	public List<Rule> hello(final List<Rule> rules) {
+	public List<Rule> refactor(final List<Rule> rules) {
 
 		for (Rule rule : rules) {
 
@@ -52,7 +56,7 @@ public class LogicRefactor {
 
 				//				System.out.println("property=" + propertyValueKeyString);
 				//				System.out.println("selectors=" + selectors);
-
+				log.append("Refactoring the property '" + propertyValueKeyString + "'.\n");
 				fixed++;
 
 				deletePropertyValueFromSelectors(rules, propertyValueKeyString);

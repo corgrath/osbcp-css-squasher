@@ -6,9 +6,14 @@ import java.util.List;
 import com.osbcp.cssparser.PropertyValue;
 import com.osbcp.cssparser.Rule;
 
-public class LogicSquashDuplicates {
+class LogicSquashDuplicates {
 
+	private StringBuilder log;
 	private int fixedDuplications = 0;
+
+	public LogicSquashDuplicates(final StringBuilder log) {
+		this.log = log;
+	}
 
 	public List<Rule> packDuplicates(final List<Rule> rules) {
 
@@ -20,7 +25,7 @@ public class LogicSquashDuplicates {
 
 			if (ruleWithSaveValues != null) {
 
-				System.out.println("Squashing '" + rule.getSelectors() + "' to '" + ruleWithSaveValues.getSelectors() + "'.");
+				log.append("Squashing '" + rule.getSelectors() + "' to '" + ruleWithSaveValues.getSelectors() + "'.\n");
 				//				System.out.println(rule);
 				//				System.out.println(ruleWithSaveValues);
 				ruleWithSaveValues.addSelectors(rule.getSelectors());

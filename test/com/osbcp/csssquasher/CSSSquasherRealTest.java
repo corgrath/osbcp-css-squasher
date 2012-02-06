@@ -8,12 +8,12 @@ public class CSSSquasherRealTest {
 	@Test
 	public void testBasic() throws Exception {
 
-		String contents = IOUtils.toString(CSSSquasher.class.getResourceAsStream("demo.css"));
+		String contents = IOUtils.toString(Squasher.class.getResourceAsStream("demo.css"));
 
-		String newCSS = CSSSquasher.squash(contents);
+		ResultObject results = Squasher.squash(contents);
 
-		System.out.println(newCSS);
+		System.out.println(results.getCompressedCSS());
+		System.out.println(results.getLog());
 
 	}
-
 }
