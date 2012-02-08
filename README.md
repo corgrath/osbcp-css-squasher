@@ -17,10 +17,23 @@ OSBCP CSS Squasher is simply a clever CSS squasher tool, written in Java, that c
 		color red;
 	}
 	
+	d, e {
+		margin: 10px;
+	}
+	
+	e, d {
+		padding: 10px;
+	}
+	
 To this:
 	
 	a, b {
 		width: 100px;
+	}
+	
+	d, e {
+		margin: 10px;
+		padding: 10px;
 	}
 	
 	a, b, c {
@@ -29,7 +42,7 @@ To this:
 	
 By squashing and refactoring your CSS code and then it uses the [YUI Compressor](http://developer.yahoo.com/yui/compressor/) to turn it into this:
 
-	a,b{width:100px}a,b,c{color:red}
+	a,b{width:100px}d,e{margin:10px;padding:10px}a,b,c{color:red}
 		
 
 Try it yourself
