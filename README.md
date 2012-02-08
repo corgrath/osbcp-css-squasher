@@ -130,6 +130,14 @@ Please report bugs
 Please report any bugs by [creating a new issue](https://github.com/corgrath/osbcp-css-squasher/issues).
 
 
+Comparison numbers
+========================================
+
+Here are some fancy numbers compared to just using the YUI Compressor.
+
+![Fancy numbers](http://dl.dropbox.com/u/8183146/persistent/projects/java_osbcp_css_squasher/comparison.png "Fancy numbers")
+
+
 License
 ========================================
 
