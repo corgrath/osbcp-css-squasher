@@ -29,15 +29,35 @@ import com.osbcp.cssparser.PropertyValue;
 import com.osbcp.cssparser.Rule;
 import com.osbcp.cssparser.Selector;
 
+/**
+ * Main logic for refactoring rules.
+ * 
+ * Meaning moving property values between rules to minimize the size.
+ * 
+ * @author <a href="mailto:christoffer@christoffer.me">Christoffer Pettersson</a>
+ */
+
 class LogicRefactor {
 
 	private final StringBuilder log;
 	private Map<PropertyValue, List<List<Selector>>> entries = new LinkedHashMap<PropertyValue, List<List<Selector>>>();
 	private int fixed;
 
+	/**
+	 * Creates the refactor.
+	 * @param log For logging.
+	 */
+
 	public LogicRefactor(final StringBuilder log) {
 		this.log = log;
 	}
+
+	/**
+	 * Main logic.
+	 * 
+	 * @param rules List of rules that should be refactored.
+	 * @return A List of rules that are refactored.
+	 */
 
 	public List<Rule> refactor(final List<Rule> rules) {
 
@@ -45,17 +65,11 @@ class LogicRefactor {
 
 			for (PropertyValue propertyValue : rule.getPropertyValues()) {
 
-				//				for (Selector selector : ) {
-
 				register(propertyValue, rule.getSelectors());
-
-				//				}
 
 			}
 
 		}
-
-		//		Map<Selector, Set<PropertyValue>> newTomten = new HashMap<Selector, Set<PropertyValue>>();
 
 		for (Entry<PropertyValue, List<List<Selector>>> entry : entries.entrySet()) {
 
@@ -100,7 +114,14 @@ class LogicRefactor {
 
 	}
 
-	private void deletePropertyValueFromSelectors(final List<Rule> rules, final PropertyValue propertyValueKeyString) {
+	/**
+	 * Deletes property values from all rules that may have those values.
+	 * 
+	 * @param rules A list of rules to go through.
+	 * @param propertyValue Property value that should be removed from the rules.
+	 */
+
+	private void deletePropertyValueFromSelectors(final List<Rule> rules, final PropertyValue propertyValue) {
 
 		final List<Rule> rulesToBeRemoved = new ArrayList<Rule>();
 
@@ -108,10 +129,10 @@ class LogicRefactor {
 
 			Set<PropertyValue> values = new HashSet<PropertyValue>(rule.getPropertyValues());
 
-			for (PropertyValue propertyValue : values) {
+			for (PropertyValue pv : values) {
 
-				if (propertyValue.equals(propertyValueKeyString)) {
-					rule.removePropertyValue(propertyValue);
+				if (pv.equals(propertyValue)) {
+					rule.removePropertyValue(pv);
 				}
 
 			}
@@ -128,6 +149,13 @@ class LogicRefactor {
 
 	}
 
+	/**
+	 * Get the total number of selectors.
+	 * 
+	 * @param selectors The nested list of selectors to search through. 
+	 * @return The total number of selectors.
+	 */
+
 	private int getSelectorNameLength(final List<List<Selector>> selectors) {
 
 		int length = 0;
@@ -142,6 +170,13 @@ class LogicRefactor {
 		return length;
 	}
 
+	/**
+	 * Registers selectors associated with a property value.
+	 * 
+	 * @param propertyValue The property value.
+	 * @param selector The selectors that should be registered.
+	 */
+
 	public void register(final PropertyValue propertyValue, final List<Selector> selector) {
 
 		List<List<Selector>> selectors = entries.get(propertyValue);
@@ -151,13 +186,15 @@ class LogicRefactor {
 			entries.put(propertyValue, selectors);
 		}
 
-		//		if (!selectors.contains(selector)) {
-
 		selectors.add(selector);
 
-		//		}
-
 	}
+
+	/**
+	 * Returns the number of refactored rules.
+	 * 
+	 * @return The number of refactored rules.
+	 */
 
 	public int getNumberOfRefactored() {
 		return fixed;

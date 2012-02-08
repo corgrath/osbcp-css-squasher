@@ -47,7 +47,7 @@ public class LogicSquashDuplicatesTest {
 
 		Assert.assertEquals(2, rules.size());
 
-		List<Rule> newRules = logic.packDuplicates(rules);
+		List<Rule> newRules = logic.squash(rules);
 
 		Assert.assertEquals(1, newRules.size());
 

@@ -31,18 +31,18 @@ To this:
 		width: 100px;
 	}
 	
+	a, b, c {
+		color: red;
+	}
+	
 	d, e {
 		margin: 10px;
 		padding: 10px;
 	}
 	
-	a, b, c {
-		color: red;
-	}
-	
-By squashing and refactoring your CSS code and then it uses the [YUI Compressor](http://developer.yahoo.com/yui/compressor/) to turn it into this:
+By merging, squashing and refactoring your CSS code and then it uses the [YUI Compressor](http://developer.yahoo.com/yui/compressor/) to turn it into this:
 
-	a,b{width:100px}d,e{margin:10px;padding:10px}a,b,c{color:red}
+	a,b{width:100px}a,b,c{color:red}d,e{margin:10px;padding:10px}
 		
 
 Try it yourself

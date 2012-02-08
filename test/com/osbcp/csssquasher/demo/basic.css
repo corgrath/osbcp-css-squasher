@@ -1,13 +1,21 @@
-a {
-    width: 100px;
-    color: red;
-}
-
-b {
-    width: 100px;
-    color: red;
-}
-
-c {
-    color: red;
-}
+	a {
+		width: 100px;
+		color: red;
+	}
+	
+	b {
+		width: 100px;
+		color: red;
+	}
+	
+	c {
+		color: red;
+	}
+	
+	d, e {
+		margin: 10px;
+	}
+	
+	e, d {
+		padding: 10px;
+	}

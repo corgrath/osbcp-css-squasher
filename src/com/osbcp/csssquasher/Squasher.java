@@ -81,21 +81,27 @@ public final class Squasher {
 
 		while (true) {
 
+			LogicMerger merger = new LogicMerger(log);
+			rules = merger.merge(rules);
+			int merged = merger.getNumberOfMerges();
+			log.append("Managed to merge '" + merged + "' rules.\n");
+			//			System.out.println(toString(rules));
+
 			LogicSquashDuplicates squasher = new LogicSquashDuplicates(log);
-			rules = squasher.packDuplicates(rules);
-			int squashed = squasher.getNumberOfSquashed();
+			rules = squasher.squash(rules);
+			int squashed = squasher.getNbrOfSquashedRules();
 			log.append("Managed to squash '" + squashed + "' rules.\n");
-			System.out.println(toString(rules));
+			//			System.out.println(toString(rules));
 
 			LogicRefactor refactorizer = new LogicRefactor(log);
 			rules = refactorizer.refactor(rules);
 			int refactored = refactorizer.getNumberOfRefactored();
 			log.append("Managed to refactor '" + refactored + "' rules.\n");
-			System.out.println(toString(rules));
+			//			System.out.println(toString(rules));
 
 			// Job done if no more to squash or refactor 
-			if (squashed == 0 && refactored == 0) {
-				log.append("Could not squash or refactor anymore.\n");
+			if (merged == 0 && squashed == 0 && refactored == 0) {
+				log.append("Could not merge, squash or refactor anymore.\n");
 				break;
 			}
 
