@@ -71,6 +71,14 @@ How to use it as a stand alone application
 Usage:
 
 	java -jar osbcp-css-squasher-x.y.z.jar [input file]
+	
+Requires the following libraries in the same folder for Squasher 1.1:
+
+* yuicompressor-2.4.7.jar
+* osbcp-css-parser-1.5.jar
+* commons-io-2.1.jar
+
+Other wise you you need to type
 
 
 How to use it in a Java project
@@ -124,18 +132,32 @@ JavaDoc
 http://dl.dropbox.com/u/8183146/persistent/projects/java_osbcp_css_squasher/javadoc/index.html
 
 
-Please report bugs
-========================================
-
-Please report any bugs by [creating a new issue](https://github.com/corgrath/osbcp-css-squasher/issues).
-
-
 Comparison numbers
 ========================================
 
 Here are some fancy numbers compared to just using the YUI Compressor.
 
 ![Fancy numbers](http://dl.dropbox.com/u/8183146/persistent/projects/java_osbcp_css_squasher/comparison.png "Fancy numbers")
+
+
+
+Please report bugs
+========================================
+
+Please report any bugs by [creating a new issue](https://github.com/corgrath/osbcp-css-squasher/issues).
+
+
+Changes
+========================================
+
+v1.1 2012-04-28
+
+ * Added manifest file.
+
+
+v1.0 2012-02-02 Christoffer Pettersson
+ 
+ * Initial release
 
 
 License

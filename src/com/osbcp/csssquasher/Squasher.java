@@ -85,7 +85,7 @@ public final class Squasher {
 			rules = merger.merge(rules);
 			int merged = merger.getNumberOfMerges();
 			log.append("Managed to merge '" + merged + "' rules.\n");
-			//			System.out.println(toString(rules));
+			//	System.out.println(toString(rules));
 
 			LogicSquashDuplicates squasher = new LogicSquashDuplicates(log);
 			rules = squasher.squash(rules);
