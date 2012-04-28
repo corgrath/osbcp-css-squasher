@@ -51,6 +51,11 @@ Try it yourself
 [Click here for an online demo tool.](http://osbcp-css-squasher-demo.appspot.com/)
 
 
+Read the blog entry
+========================================
+
+[Introducing OSBCP CSS Squasher - YUI CSS Compressor gone clever? ](http://blog.christoffer.me/2012/02/even-batman-needs-robin-why-yui-css.html)
+
 
 Download
 ========================================
